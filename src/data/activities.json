@@ -1,0 +1,327 @@
+{
+  "contracts": [
+    {
+      "id": "viridian-capture",
+      "title": "寻找皮卡丘",
+      "regionId": "kanto",
+      "siteId": "viridian",
+      "pokemonId": 25,
+      "pokemonName": "皮卡丘",
+      "reward": {
+        "money": 80,
+        "materials": 8,
+        "research": 5,
+        "balls": 2,
+        "reputation": 3
+      }
+    },
+    {
+      "id": "moon-capture",
+      "title": "寻找皮皮",
+      "regionId": "kanto",
+      "siteId": "moon",
+      "pokemonId": 35,
+      "pokemonName": "皮皮",
+      "reward": {
+        "money": 80,
+        "materials": 8,
+        "research": 5,
+        "balls": 2,
+        "reputation": 3
+      }
+    },
+    {
+      "id": "kanto-coast-capture",
+      "title": "寻找可达鸭",
+      "regionId": "kanto",
+      "siteId": "kanto-coast",
+      "pokemonId": 54,
+      "pokemonName": "可达鸭",
+      "reward": {
+        "money": 80,
+        "materials": 8,
+        "research": 5,
+        "balls": 2,
+        "reputation": 3
+      }
+    },
+    {
+      "id": "ilex-capture",
+      "title": "寻找咕咕",
+      "regionId": "johto",
+      "siteId": "ilex",
+      "pokemonId": 163,
+      "pokemonName": "咕咕",
+      "reward": {
+        "money": 80,
+        "materials": 8,
+        "research": 5,
+        "balls": 2,
+        "reputation": 3
+      }
+    },
+    {
+      "id": "johto-mountain-capture",
+      "title": "寻找小小象",
+      "regionId": "johto",
+      "siteId": "johto-mountain",
+      "pokemonId": 231,
+      "pokemonName": "小小象",
+      "reward": {
+        "money": 80,
+        "materials": 8,
+        "research": 5,
+        "balls": 2,
+        "reputation": 3
+      }
+    },
+    {
+      "id": "johto-lake-capture",
+      "title": "寻找乌波",
+      "regionId": "johto",
+      "siteId": "johto-lake",
+      "pokemonId": 194,
+      "pokemonName": "乌波",
+      "reward": {
+        "money": 80,
+        "materials": 8,
+        "research": 5,
+        "balls": 2,
+        "reputation": 3
+      }
+    },
+    {
+      "id": "petalburg-capture",
+      "title": "寻找蘑蘑菇",
+      "regionId": "hoenn",
+      "siteId": "petalburg",
+      "pokemonId": 285,
+      "pokemonName": "蘑蘑菇",
+      "reward": {
+        "money": 80,
+        "materials": 8,
+        "research": 5,
+        "balls": 2,
+        "reputation": 3
+      }
+    },
+    {
+      "id": "chimney-capture",
+      "title": "寻找呆火驼",
+      "regionId": "hoenn",
+      "siteId": "chimney",
+      "pokemonId": 322,
+      "pokemonName": "呆火驼",
+      "reward": {
+        "money": 80,
+        "materials": 8,
+        "research": 5,
+        "balls": 2,
+        "reputation": 3
+      }
+    },
+    {
+      "id": "hoenn-sea-capture",
+      "title": "寻找长翅鸥",
+      "regionId": "hoenn",
+      "siteId": "hoenn-sea",
+      "pokemonId": 278,
+      "pokemonName": "长翅鸥",
+      "reward": {
+        "money": 80,
+        "materials": 8,
+        "research": 5,
+        "balls": 2,
+        "reputation": 3
+      }
+    }
+  ],
+  "tracking": {
+    "weightMultiplier": 6,
+    "guaranteeAfter": 5,
+    "firstGuaranteeAfter": 2,
+    "firstReward": {
+      "money": 120,
+      "materials": 12,
+      "research": 5,
+      "balls": 3,
+      "reputation": 3
+    }
+  },
+  "eventInterval": 3,
+  "events": [
+    {
+      "id": "tracks",
+      "title": "岔路上的新鲜足迹",
+      "description": "目标的足迹通向巡逻路线，另一边藏着一箱补给。",
+      "choices": [
+        {
+          "id": "pursue",
+          "label": "冒险追踪",
+          "description": "继续接触目标，捕获率 +12%，通缉 +12。",
+          "chanceBonus": 0.12,
+          "wanted": 12,
+          "money": 0,
+          "materials": 0,
+          "research": 0,
+          "keepEncounter": true
+        },
+        {
+          "id": "supplies",
+          "label": "带走补给",
+          "description": "放弃本次目标，材料 +8，通缉 -3。",
+          "chanceBonus": 0,
+          "wanted": -3,
+          "money": 0,
+          "materials": 8,
+          "research": 0,
+          "keepEncounter": false
+        }
+      ]
+    },
+    {
+      "id": "patrol",
+      "title": "巡逻队正在靠近",
+      "description": "目标还未察觉你，但撤离路线即将被封锁。",
+      "choices": [
+        {
+          "id": "pursue",
+          "label": "快速截住目标",
+          "description": "继续接触目标，捕获率 +15%，通缉 +15。",
+          "chanceBonus": 0.15,
+          "wanted": 15,
+          "money": 0,
+          "materials": 0,
+          "research": 0,
+          "keepEncounter": true
+        },
+        {
+          "id": "supplies",
+          "label": "收集情报后撤离",
+          "description": "放弃本次目标，研究点 +6，通缉 -5。",
+          "chanceBonus": 0,
+          "wanted": -5,
+          "money": 0,
+          "materials": 0,
+          "research": 6,
+          "keepEncounter": false
+        }
+      ]
+    },
+    {
+      "id": "cache",
+      "title": "废弃据点的信号",
+      "description": "信号源附近发现宝可梦，也留下了一批可回收物资。",
+      "choices": [
+        {
+          "id": "pursue",
+          "label": "靠近信号源",
+          "description": "继续接触目标，捕获率 +10%，通缉 +8。",
+          "chanceBonus": 0.1,
+          "wanted": 8,
+          "money": 0,
+          "materials": 0,
+          "research": 0,
+          "keepEncounter": true
+        },
+        {
+          "id": "supplies",
+          "label": "回收物资离开",
+          "description": "放弃本次目标，金币 +35、材料 +4。",
+          "chanceBonus": 0,
+          "wanted": 0,
+          "money": 35,
+          "materials": 4,
+          "research": 0,
+          "keepEncounter": false
+        }
+      ]
+    }
+  ],
+  "dispatchSlots": 2,
+  "dispatches": [
+    {
+      "id": "scout",
+      "name": "路线侦察",
+      "turns": 3,
+      "types": [
+        "飞行",
+        "虫",
+        "恶"
+      ],
+      "reward": {
+        "money": 25,
+        "materials": 3,
+        "research": 5,
+        "balls": 0,
+        "reputation": 1
+      },
+      "bonus": {
+        "money": 10,
+        "materials": 2,
+        "research": 5,
+        "balls": 0,
+        "reputation": 0
+      }
+    },
+    {
+      "id": "transport",
+      "name": "物资运输",
+      "turns": 4,
+      "types": [
+        "一般",
+        "格斗",
+        "地面"
+      ],
+      "reward": {
+        "money": 60,
+        "materials": 8,
+        "research": 0,
+        "balls": 1,
+        "reputation": 1
+      },
+      "bonus": {
+        "money": 30,
+        "materials": 4,
+        "research": 0,
+        "balls": 1,
+        "reputation": 0
+      }
+    },
+    {
+      "id": "analysis",
+      "name": "样本分析",
+      "turns": 5,
+      "types": [
+        "草",
+        "电",
+        "超能力"
+      ],
+      "reward": {
+        "money": 20,
+        "materials": 2,
+        "research": 12,
+        "balls": 0,
+        "reputation": 1
+      },
+      "bonus": {
+        "money": 0,
+        "materials": 0,
+        "research": 8,
+        "balls": 0,
+        "reputation": 0
+      }
+    }
+  ],
+  "eventIntervals": [
+    4,
+    5,
+    6
+  ],
+  "supply": {
+    "initialCredits": 2,
+    "surveysPerCredit": 3,
+    "emergencyMoney": 5,
+    "emergencyMaterials": 1
+  }
+}

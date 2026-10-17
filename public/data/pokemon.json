@@ -1,0 +1,5974 @@
+[
+  {
+    "id": 1,
+    "name": "妙蛙种子",
+    "englishName": "Bulbasaur",
+    "type": [
+      "草",
+      "毒"
+    ],
+    "category": "种子宝可梦",
+    "description": "背上的种子会随着成长逐渐发育。",
+    "rocketValue": 20,
+    "researchValue": 15,
+    "sprite": "assets/pokemon/sprites/001.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 2,
+    "name": "妙蛙草",
+    "englishName": "Ivysaur",
+    "type": [
+      "草",
+      "毒"
+    ],
+    "category": "种子宝可梦",
+    "description": "妙蛙草是种子宝可梦，拥有草、毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/002.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 3,
+    "name": "妙蛙花",
+    "englishName": "Venusaur",
+    "type": [
+      "草",
+      "毒"
+    ],
+    "category": "种子宝可梦",
+    "description": "妙蛙花是种子宝可梦，拥有草、毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 105,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/003.png",
+    "rarity": "rare",
+    "habitat": "草地"
+  },
+  {
+    "id": 4,
+    "name": "小火龙",
+    "englishName": "Charmander",
+    "type": [
+      "火"
+    ],
+    "category": "蜥蜴宝可梦",
+    "description": "尾巴上燃烧着火焰。",
+    "rocketValue": 25,
+    "researchValue": 19,
+    "sprite": "assets/pokemon/sprites/004.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 5,
+    "name": "火恐龙",
+    "englishName": "Charmeleon",
+    "type": [
+      "火"
+    ],
+    "category": "火焰宝可梦",
+    "description": "火恐龙是火焰宝可梦，拥有火属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/005.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 6,
+    "name": "喷火龙",
+    "englishName": "Charizard",
+    "type": [
+      "火",
+      "飞行"
+    ],
+    "category": "火焰宝可梦",
+    "description": "喷火龙是火焰宝可梦，拥有火、飞行属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 107,
+    "researchValue": 67,
+    "sprite": "assets/pokemon/sprites/006.png",
+    "rarity": "rare",
+    "habitat": "山地"
+  },
+  {
+    "id": 7,
+    "name": "杰尼龟",
+    "englishName": "Squirtle",
+    "type": [
+      "水"
+    ],
+    "category": "小龟宝可梦",
+    "description": "坚硬的龟壳可以保护身体。",
+    "rocketValue": 30,
+    "researchValue": 23,
+    "sprite": "assets/pokemon/sprites/007.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 8,
+    "name": "卡咪龟",
+    "englishName": "Wartortle",
+    "type": [
+      "水"
+    ],
+    "category": "龟宝可梦",
+    "description": "卡咪龟是龟宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/008.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 9,
+    "name": "水箭龟",
+    "englishName": "Blastoise",
+    "type": [
+      "水"
+    ],
+    "category": "甲壳宝可梦",
+    "description": "水箭龟是甲壳宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 106,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/009.png",
+    "rarity": "rare",
+    "habitat": "城市"
+  },
+  {
+    "id": 10,
+    "name": "绿毛虫",
+    "englishName": "Caterpie",
+    "type": [
+      "虫"
+    ],
+    "category": "虫宝宝宝可梦",
+    "description": "绿毛虫是虫宝宝宝可梦，拥有虫属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 39,
+    "researchValue": 24,
+    "sprite": "assets/pokemon/sprites/010.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 11,
+    "name": "铁甲蛹",
+    "englishName": "Metapod",
+    "type": [
+      "虫"
+    ],
+    "category": "蛹宝可梦",
+    "description": "铁甲蛹是蛹宝可梦，拥有虫属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 41,
+    "researchValue": 26,
+    "sprite": "assets/pokemon/sprites/011.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 12,
+    "name": "巴大蝶",
+    "englishName": "Butterfree",
+    "type": [
+      "虫",
+      "飞行"
+    ],
+    "category": "蝴蝶宝可梦",
+    "description": "巴大蝶是蝴蝶宝可梦，拥有虫、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 79,
+    "researchValue": 49,
+    "sprite": "assets/pokemon/sprites/012.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 13,
+    "name": "独角虫",
+    "englishName": "Weedle",
+    "type": [
+      "虫",
+      "毒"
+    ],
+    "category": "毛毛虫宝可梦",
+    "description": "独角虫是毛毛虫宝可梦，拥有虫、毒属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 39,
+    "researchValue": 24,
+    "sprite": "assets/pokemon/sprites/013.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 14,
+    "name": "铁壳蛹",
+    "englishName": "Kakuna",
+    "type": [
+      "虫",
+      "毒"
+    ],
+    "category": "蛹宝可梦",
+    "description": "铁壳蛹是蛹宝可梦，拥有虫、毒属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 41,
+    "researchValue": 26,
+    "sprite": "assets/pokemon/sprites/014.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 15,
+    "name": "大针蜂",
+    "englishName": "Beedrill",
+    "type": [
+      "虫",
+      "毒"
+    ],
+    "category": "毒蜂宝可梦",
+    "description": "大针蜂是毒蜂宝可梦，拥有虫、毒属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 79,
+    "researchValue": 49,
+    "sprite": "assets/pokemon/sprites/015.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 16,
+    "name": "波波",
+    "englishName": "Pidgey",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "小鸟宝可梦",
+    "description": "波波是小鸟宝可梦，拥有一般、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 50,
+    "researchValue": 31,
+    "sprite": "assets/pokemon/sprites/016.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 17,
+    "name": "比比鸟",
+    "englishName": "Pidgeotto",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "鸟宝可梦",
+    "description": "比比鸟是鸟宝可梦，拥有一般、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 70,
+    "researchValue": 44,
+    "sprite": "assets/pokemon/sprites/017.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 18,
+    "name": "大比鸟",
+    "englishName": "Pidgeot",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "鸟宝可梦",
+    "description": "大比鸟是鸟宝可梦，拥有一般、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 96,
+    "researchValue": 60,
+    "sprite": "assets/pokemon/sprites/018.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 19,
+    "name": "小拉达",
+    "englishName": "Rattata",
+    "type": [
+      "一般"
+    ],
+    "category": "鼠宝可梦",
+    "description": "小拉达是鼠宝可梦，拥有一般属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 51,
+    "researchValue": 32,
+    "sprite": "assets/pokemon/sprites/019.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 20,
+    "name": "拉达",
+    "englishName": "Raticate",
+    "type": [
+      "一般"
+    ],
+    "category": "鼠宝可梦",
+    "description": "拉达是鼠宝可梦，拥有一般属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 83,
+    "researchValue": 52,
+    "sprite": "assets/pokemon/sprites/020.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 21,
+    "name": "烈雀",
+    "englishName": "Spearow",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "小鸟宝可梦",
+    "description": "烈雀是小鸟宝可梦，拥有一般、飞行属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 52,
+    "researchValue": 33,
+    "sprite": "assets/pokemon/sprites/021.png",
+    "rarity": "common",
+    "habitat": "荒野"
+  },
+  {
+    "id": 22,
+    "name": "大嘴雀",
+    "englishName": "Fearow",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "鸟嘴宝可梦",
+    "description": "大嘴雀是鸟嘴宝可梦，拥有一般、飞行属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 88,
+    "researchValue": 55,
+    "sprite": "assets/pokemon/sprites/022.png",
+    "rarity": "uncommon",
+    "habitat": "荒野"
+  },
+  {
+    "id": 23,
+    "name": "阿柏蛇",
+    "englishName": "Ekans",
+    "type": [
+      "毒"
+    ],
+    "category": "蛇宝可梦",
+    "description": "阿柏蛇是蛇宝可梦，拥有毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 58,
+    "researchValue": 36,
+    "sprite": "assets/pokemon/sprites/023.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 24,
+    "name": "阿柏怪",
+    "englishName": "Arbok",
+    "type": [
+      "毒"
+    ],
+    "category": "眼镜蛇宝可梦",
+    "description": "阿柏怪是眼镜蛇宝可梦，拥有毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 90,
+    "researchValue": 56,
+    "sprite": "assets/pokemon/sprites/024.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 25,
+    "name": "皮卡丘",
+    "englishName": "Pikachu",
+    "type": [
+      "电"
+    ],
+    "category": "鼠宝可梦",
+    "description": "脸颊两侧有储存电力的电气袋。",
+    "rocketValue": 35,
+    "researchValue": 27,
+    "sprite": "assets/pokemon/sprites/025.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 26,
+    "name": "雷丘",
+    "englishName": "Raichu",
+    "type": [
+      "电"
+    ],
+    "category": "鼠宝可梦",
+    "description": "雷丘是鼠宝可梦，拥有电属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 97,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/026.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 27,
+    "name": "穿山鼠",
+    "englishName": "Sandshrew",
+    "type": [
+      "地面"
+    ],
+    "category": "鼠宝可梦",
+    "description": "穿山鼠是鼠宝可梦，拥有地面属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/027.png",
+    "rarity": "common",
+    "habitat": "荒野"
+  },
+  {
+    "id": 28,
+    "name": "穿山王",
+    "englishName": "Sandslash",
+    "type": [
+      "地面"
+    ],
+    "category": "鼠宝可梦",
+    "description": "穿山王是鼠宝可梦，拥有地面属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 90,
+    "researchValue": 56,
+    "sprite": "assets/pokemon/sprites/028.png",
+    "rarity": "uncommon",
+    "habitat": "荒野"
+  },
+  {
+    "id": 29,
+    "name": "尼多兰",
+    "englishName": "Nidoran♀",
+    "type": [
+      "毒"
+    ],
+    "category": "毒针宝可梦",
+    "description": "尼多兰是毒针宝可梦，拥有毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 55,
+    "researchValue": 34,
+    "sprite": "assets/pokemon/sprites/029.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 30,
+    "name": "尼多娜",
+    "englishName": "Nidorina",
+    "type": [
+      "毒"
+    ],
+    "category": "毒针宝可梦",
+    "description": "尼多娜是毒针宝可梦，拥有毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 73,
+    "researchValue": 46,
+    "sprite": "assets/pokemon/sprites/030.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 31,
+    "name": "尼多后",
+    "englishName": "Nidoqueen",
+    "type": [
+      "毒",
+      "地面"
+    ],
+    "category": "钻锥宝可梦",
+    "description": "尼多后是钻锥宝可梦，拥有毒、地面属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 101,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/031.png",
+    "rarity": "rare",
+    "habitat": "草地"
+  },
+  {
+    "id": 32,
+    "name": "尼多朗",
+    "englishName": "Nidoran♂",
+    "type": [
+      "毒"
+    ],
+    "category": "毒针宝可梦",
+    "description": "尼多朗是毒针宝可梦，拥有毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 55,
+    "researchValue": 34,
+    "sprite": "assets/pokemon/sprites/032.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 33,
+    "name": "尼多力诺",
+    "englishName": "Nidorino",
+    "type": [
+      "毒"
+    ],
+    "category": "毒针宝可梦",
+    "description": "尼多力诺是毒针宝可梦，拥有毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 73,
+    "researchValue": 46,
+    "sprite": "assets/pokemon/sprites/033.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 34,
+    "name": "尼多王",
+    "englishName": "Nidoking",
+    "type": [
+      "毒",
+      "地面"
+    ],
+    "category": "钻锥宝可梦",
+    "description": "尼多王是钻锥宝可梦，拥有毒、地面属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 101,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/034.png",
+    "rarity": "rare",
+    "habitat": "草地"
+  },
+  {
+    "id": 35,
+    "name": "皮皮",
+    "englishName": "Clefairy",
+    "type": [
+      "妖精"
+    ],
+    "category": "妖精宝可梦",
+    "description": "皮皮是妖精宝可梦，拥有妖精属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 65,
+    "researchValue": 40,
+    "sprite": "assets/pokemon/sprites/035.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 36,
+    "name": "皮可西",
+    "englishName": "Clefable",
+    "type": [
+      "妖精"
+    ],
+    "category": "妖精宝可梦",
+    "description": "皮可西是妖精宝可梦，拥有妖精属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 97,
+    "researchValue": 60,
+    "sprite": "assets/pokemon/sprites/036.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 37,
+    "name": "六尾",
+    "englishName": "Vulpix",
+    "type": [
+      "火"
+    ],
+    "category": "狐狸宝可梦",
+    "description": "六尾是狐狸宝可梦，拥有火属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 37,
+    "sprite": "assets/pokemon/sprites/037.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 38,
+    "name": "九尾",
+    "englishName": "Ninetales",
+    "type": [
+      "火"
+    ],
+    "category": "狐狸宝可梦",
+    "description": "九尾是狐狸宝可梦，拥有火属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 101,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/038.png",
+    "rarity": "rare",
+    "habitat": "草地"
+  },
+  {
+    "id": 39,
+    "name": "胖丁",
+    "englishName": "Jigglypuff",
+    "type": [
+      "一般",
+      "妖精"
+    ],
+    "category": "气球宝可梦",
+    "description": "胖丁是气球宝可梦，拥有一般、妖精属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 54,
+    "researchValue": 34,
+    "sprite": "assets/pokemon/sprites/039.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 40,
+    "name": "胖可丁",
+    "englishName": "Wigglytuff",
+    "type": [
+      "一般",
+      "妖精"
+    ],
+    "category": "气球宝可梦",
+    "description": "胖可丁是气球宝可梦，拥有一般、妖精属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 87,
+    "researchValue": 54,
+    "sprite": "assets/pokemon/sprites/040.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 41,
+    "name": "超音蝠",
+    "englishName": "Zubat",
+    "type": [
+      "毒",
+      "飞行"
+    ],
+    "category": "蝙蝠宝可梦",
+    "description": "通过超音波感知周围环境。",
+    "rocketValue": 40,
+    "researchValue": 31,
+    "sprite": "assets/pokemon/sprites/041.png",
+    "rarity": "common",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 42,
+    "name": "大嘴蝠",
+    "englishName": "Golbat",
+    "type": [
+      "毒",
+      "飞行"
+    ],
+    "category": "蝙蝠宝可梦",
+    "description": "大嘴蝠是蝙蝠宝可梦，拥有毒、飞行属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/042.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 43,
+    "name": "走路草",
+    "englishName": "Oddish",
+    "type": [
+      "草",
+      "毒"
+    ],
+    "category": "杂草宝可梦",
+    "description": "走路草是杂草宝可梦，拥有草、毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 64,
+    "researchValue": 40,
+    "sprite": "assets/pokemon/sprites/043.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 44,
+    "name": "臭臭花",
+    "englishName": "Gloom",
+    "type": [
+      "草",
+      "毒"
+    ],
+    "category": "杂草宝可梦",
+    "description": "臭臭花是杂草宝可梦，拥有草、毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 79,
+    "researchValue": 49,
+    "sprite": "assets/pokemon/sprites/044.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 45,
+    "name": "霸王花",
+    "englishName": "Vileplume",
+    "type": [
+      "草",
+      "毒"
+    ],
+    "category": "花宝可梦",
+    "description": "霸王花是花宝可梦，拥有草、毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/045.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 46,
+    "name": "派拉斯",
+    "englishName": "Paras",
+    "type": [
+      "虫",
+      "草"
+    ],
+    "category": "蘑菇宝可梦",
+    "description": "派拉斯是蘑菇宝可梦，拥有虫、草属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 57,
+    "researchValue": 36,
+    "sprite": "assets/pokemon/sprites/046.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 47,
+    "name": "派拉斯特",
+    "englishName": "Parasect",
+    "type": [
+      "虫",
+      "草"
+    ],
+    "category": "蘑菇宝可梦",
+    "description": "派拉斯特是蘑菇宝可梦，拥有虫、草属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/047.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 48,
+    "name": "毛球",
+    "englishName": "Venonat",
+    "type": [
+      "虫",
+      "毒"
+    ],
+    "category": "昆虫宝可梦",
+    "description": "毛球是昆虫宝可梦，拥有虫、毒属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 61,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/048.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 49,
+    "name": "摩鲁蛾",
+    "englishName": "Venomoth",
+    "type": [
+      "虫",
+      "毒"
+    ],
+    "category": "毒蛾宝可梦",
+    "description": "摩鲁蛾是毒蛾宝可梦，拥有虫、毒属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 90,
+    "researchValue": 56,
+    "sprite": "assets/pokemon/sprites/049.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 50,
+    "name": "地鼠",
+    "englishName": "Diglett",
+    "type": [
+      "地面"
+    ],
+    "category": "鼹鼠宝可梦",
+    "description": "地鼠是鼹鼠宝可梦，拥有地面属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 53,
+    "researchValue": 33,
+    "sprite": "assets/pokemon/sprites/050.png",
+    "rarity": "common",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 51,
+    "name": "三地鼠",
+    "englishName": "Dugtrio",
+    "type": [
+      "地面"
+    ],
+    "category": "鼹鼠宝可梦",
+    "description": "三地鼠是鼹鼠宝可梦，拥有地面属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 85,
+    "researchValue": 53,
+    "sprite": "assets/pokemon/sprites/051.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 52,
+    "name": "喵喵",
+    "englishName": "Meowth",
+    "type": [
+      "一般"
+    ],
+    "category": "妖怪猫宝可梦",
+    "description": "喜欢收集闪闪发光的东西。",
+    "rocketValue": 45,
+    "researchValue": 35,
+    "sprite": "assets/pokemon/sprites/052.png",
+    "rarity": "common",
+    "habitat": "水边"
+  },
+  {
+    "id": 53,
+    "name": "猫老大",
+    "englishName": "Persian",
+    "type": [
+      "一般"
+    ],
+    "category": "暹罗猫宝可梦",
+    "description": "猫老大是暹罗猫宝可梦，拥有一般属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 88,
+    "researchValue": 55,
+    "sprite": "assets/pokemon/sprites/053.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 54,
+    "name": "可达鸭",
+    "englishName": "Psyduck",
+    "type": [
+      "水"
+    ],
+    "category": "鸭宝可梦",
+    "description": "可达鸭是鸭宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 64,
+    "researchValue": 40,
+    "sprite": "assets/pokemon/sprites/054.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 55,
+    "name": "哥达鸭",
+    "englishName": "Golduck",
+    "type": [
+      "水"
+    ],
+    "category": "鸭宝可梦",
+    "description": "哥达鸭是鸭宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/055.png",
+    "rarity": "rare",
+    "habitat": "城市"
+  },
+  {
+    "id": 56,
+    "name": "猴怪",
+    "englishName": "Mankey",
+    "type": [
+      "格斗"
+    ],
+    "category": "猪猴宝可梦",
+    "description": "行动敏捷，容易生气。",
+    "rocketValue": 50,
+    "researchValue": 39,
+    "sprite": "assets/pokemon/sprites/056.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 57,
+    "name": "火暴猴",
+    "englishName": "Primeape",
+    "type": [
+      "格斗"
+    ],
+    "category": "猪猴宝可梦",
+    "description": "火暴猴是猪猴宝可梦，拥有格斗属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/057.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 58,
+    "name": "卡蒂狗",
+    "englishName": "Growlithe",
+    "type": [
+      "火"
+    ],
+    "category": "小狗宝可梦",
+    "description": "卡蒂狗是小狗宝可梦，拥有火属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 70,
+    "researchValue": 44,
+    "sprite": "assets/pokemon/sprites/058.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 59,
+    "name": "风速狗",
+    "englishName": "Arcanine",
+    "type": [
+      "火"
+    ],
+    "category": "传说宝可梦",
+    "description": "风速狗是传说宝可梦，拥有火属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 111,
+    "researchValue": 69,
+    "sprite": "assets/pokemon/sprites/059.png",
+    "rarity": "rare",
+    "habitat": "草地"
+  },
+  {
+    "id": 60,
+    "name": "蚊香蝌蚪",
+    "englishName": "Poliwag",
+    "type": [
+      "水"
+    ],
+    "category": "蝌蚪宝可梦",
+    "description": "蚊香蝌蚪是蝌蚪宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/060.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 61,
+    "name": "蚊香君",
+    "englishName": "Poliwhirl",
+    "type": [
+      "水"
+    ],
+    "category": "蝌蚪宝可梦",
+    "description": "蚊香君是蝌蚪宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 77,
+    "researchValue": 48,
+    "sprite": "assets/pokemon/sprites/061.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 62,
+    "name": "蚊香泳士",
+    "englishName": "Poliwrath",
+    "type": [
+      "水",
+      "格斗"
+    ],
+    "category": "蝌蚪宝可梦",
+    "description": "蚊香泳士是蝌蚪宝可梦，拥有水、格斗属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 102,
+    "researchValue": 64,
+    "sprite": "assets/pokemon/sprites/062.png",
+    "rarity": "rare",
+    "habitat": "城市"
+  },
+  {
+    "id": 63,
+    "name": "凯西",
+    "englishName": "Abra",
+    "type": [
+      "超能力"
+    ],
+    "category": "念力宝可梦",
+    "description": "能够使用瞬间移动。",
+    "rocketValue": 55,
+    "researchValue": 43,
+    "sprite": "assets/pokemon/sprites/063.png",
+    "rarity": "common",
+    "habitat": "水边"
+  },
+  {
+    "id": 64,
+    "name": "勇基拉",
+    "englishName": "Kadabra",
+    "type": [
+      "超能力"
+    ],
+    "category": "念力宝可梦",
+    "description": "勇基拉是念力宝可梦，拥有超能力属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 80,
+    "researchValue": 50,
+    "sprite": "assets/pokemon/sprites/064.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 65,
+    "name": "胡地",
+    "englishName": "Alakazam",
+    "type": [
+      "超能力"
+    ],
+    "category": "念力宝可梦",
+    "description": "胡地是念力宝可梦，拥有超能力属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/065.png",
+    "rarity": "rare",
+    "habitat": "水边"
+  },
+  {
+    "id": 66,
+    "name": "腕力",
+    "englishName": "Machop",
+    "type": [
+      "格斗"
+    ],
+    "category": "怪力宝可梦",
+    "description": "腕力是怪力宝可梦，拥有格斗属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 61,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/066.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 67,
+    "name": "豪力",
+    "englishName": "Machoke",
+    "type": [
+      "格斗"
+    ],
+    "category": "怪力宝可梦",
+    "description": "豪力是怪力宝可梦，拥有格斗属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/067.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 68,
+    "name": "怪力",
+    "englishName": "Machamp",
+    "type": [
+      "格斗"
+    ],
+    "category": "怪力宝可梦",
+    "description": "怪力是怪力宝可梦，拥有格斗属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 101,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/068.png",
+    "rarity": "rare",
+    "habitat": "山地"
+  },
+  {
+    "id": 69,
+    "name": "喇叭芽",
+    "englishName": "Bellsprout",
+    "type": [
+      "草",
+      "毒"
+    ],
+    "category": "花宝可梦",
+    "description": "喇叭芽是花宝可梦，拥有草、毒属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/069.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 70,
+    "name": "口呆花",
+    "englishName": "Weepinbell",
+    "type": [
+      "草",
+      "毒"
+    ],
+    "category": "捕蝇宝可梦",
+    "description": "口呆花是捕蝇宝可梦，拥有草、毒属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 78,
+    "researchValue": 49,
+    "sprite": "assets/pokemon/sprites/070.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 71,
+    "name": "大食花",
+    "englishName": "Victreebel",
+    "type": [
+      "草",
+      "毒"
+    ],
+    "category": "捕蝇宝可梦",
+    "description": "大食花是捕蝇宝可梦，拥有草、毒属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/071.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 72,
+    "name": "玛瑙水母",
+    "englishName": "Tentacool",
+    "type": [
+      "水",
+      "毒"
+    ],
+    "category": "水母宝可梦",
+    "description": "玛瑙水母是水母宝可梦，拥有水、毒属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 67,
+    "researchValue": 42,
+    "sprite": "assets/pokemon/sprites/072.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 73,
+    "name": "毒刺水母",
+    "englishName": "Tentacruel",
+    "type": [
+      "水",
+      "毒"
+    ],
+    "category": "水母宝可梦",
+    "description": "毒刺水母是水母宝可梦，拥有水、毒属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 103,
+    "researchValue": 64,
+    "sprite": "assets/pokemon/sprites/073.png",
+    "rarity": "rare",
+    "habitat": "海洋"
+  },
+  {
+    "id": 74,
+    "name": "小拳石",
+    "englishName": "Geodude",
+    "type": [
+      "岩石",
+      "地面"
+    ],
+    "category": "岩石宝可梦",
+    "description": "外表像岩石，拥有有力的双臂。",
+    "rocketValue": 60,
+    "researchValue": 47,
+    "sprite": "assets/pokemon/sprites/074.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 75,
+    "name": "隆隆石",
+    "englishName": "Graveler",
+    "type": [
+      "岩石",
+      "地面"
+    ],
+    "category": "岩石宝可梦",
+    "description": "隆隆石是岩石宝可梦，拥有岩石、地面属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 78,
+    "researchValue": 49,
+    "sprite": "assets/pokemon/sprites/075.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 76,
+    "name": "隆隆岩",
+    "englishName": "Golem",
+    "type": [
+      "岩石",
+      "地面"
+    ],
+    "category": "重量级宝可梦",
+    "description": "隆隆岩是重量级宝可梦，拥有岩石、地面属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 99,
+    "researchValue": 62,
+    "sprite": "assets/pokemon/sprites/076.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 77,
+    "name": "小火马",
+    "englishName": "Ponyta",
+    "type": [
+      "火"
+    ],
+    "category": "火马宝可梦",
+    "description": "小火马是火马宝可梦，拥有火属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 82,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/077.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 78,
+    "name": "烈焰马",
+    "englishName": "Rapidash",
+    "type": [
+      "火"
+    ],
+    "category": "火马宝可梦",
+    "description": "烈焰马是火马宝可梦，拥有火属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/078.png",
+    "rarity": "rare",
+    "habitat": "草地"
+  },
+  {
+    "id": 79,
+    "name": "呆呆兽",
+    "englishName": "Slowpoke",
+    "type": [
+      "水",
+      "超能力"
+    ],
+    "category": "憨憨宝可梦",
+    "description": "呆呆兽是憨憨宝可梦，拥有水、超能力属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 63,
+    "researchValue": 39,
+    "sprite": "assets/pokemon/sprites/079.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 80,
+    "name": "呆壳兽",
+    "englishName": "Slowbro",
+    "type": [
+      "水",
+      "超能力"
+    ],
+    "category": "寄居蟹宝可梦",
+    "description": "呆壳兽是寄居蟹宝可梦，拥有水、超能力属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/080.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 81,
+    "name": "小磁怪",
+    "englishName": "Magnemite",
+    "type": [
+      "电",
+      "钢"
+    ],
+    "category": "磁铁宝可梦",
+    "description": "小磁怪是磁铁宝可梦，拥有电、钢属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 65,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/081.png",
+    "rarity": "common",
+    "habitat": "荒野"
+  },
+  {
+    "id": 82,
+    "name": "三合一磁怪",
+    "englishName": "Magneton",
+    "type": [
+      "电",
+      "钢"
+    ],
+    "category": "磁铁宝可梦",
+    "description": "三合一磁怪是磁铁宝可梦，拥有电、钢属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 93,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/082.png",
+    "rarity": "uncommon",
+    "habitat": "荒野"
+  },
+  {
+    "id": 83,
+    "name": "大葱鸭",
+    "englishName": "Farfetch’d",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "黄嘴鸭宝可梦",
+    "description": "大葱鸭是黄嘴鸭宝可梦，拥有一般、飞行属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 75,
+    "researchValue": 47,
+    "sprite": "assets/pokemon/sprites/083.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 84,
+    "name": "嘟嘟",
+    "englishName": "Doduo",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "两头鸟宝可梦",
+    "description": "嘟嘟是两头鸟宝可梦，拥有一般、飞行属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 62,
+    "researchValue": 39,
+    "sprite": "assets/pokemon/sprites/084.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 85,
+    "name": "嘟嘟利",
+    "englishName": "Dodrio",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "三头鸟宝可梦",
+    "description": "嘟嘟利是三头鸟宝可梦，拥有一般、飞行属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 94,
+    "researchValue": 59,
+    "sprite": "assets/pokemon/sprites/085.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 86,
+    "name": "小海狮",
+    "englishName": "Seel",
+    "type": [
+      "水"
+    ],
+    "category": "海狮宝可梦",
+    "description": "小海狮是海狮宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 65,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/086.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 87,
+    "name": "白海狮",
+    "englishName": "Dewgong",
+    "type": [
+      "水",
+      "冰"
+    ],
+    "category": "海狮宝可梦",
+    "description": "白海狮是海狮宝可梦，拥有水、冰属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 95,
+    "researchValue": 59,
+    "sprite": "assets/pokemon/sprites/087.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 88,
+    "name": "臭泥",
+    "englishName": "Grimer",
+    "type": [
+      "毒"
+    ],
+    "category": "污泥宝可梦",
+    "description": "臭泥是污泥宝可梦，拥有毒属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 65,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/088.png",
+    "rarity": "common",
+    "habitat": "水边"
+  },
+  {
+    "id": 89,
+    "name": "臭臭泥",
+    "englishName": "Muk",
+    "type": [
+      "毒"
+    ],
+    "category": "污泥宝可梦",
+    "description": "臭臭泥是污泥宝可梦，拥有毒属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/089.png",
+    "rarity": "rare",
+    "habitat": "水边"
+  },
+  {
+    "id": 90,
+    "name": "大舌贝",
+    "englishName": "Shellder",
+    "type": [
+      "水"
+    ],
+    "category": "双壳贝宝可梦",
+    "description": "大舌贝是双壳贝宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 61,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/090.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 91,
+    "name": "刺甲贝",
+    "englishName": "Cloyster",
+    "type": [
+      "水",
+      "冰"
+    ],
+    "category": "双壳贝宝可梦",
+    "description": "刺甲贝是双壳贝宝可梦，拥有水、冰属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 105,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/091.png",
+    "rarity": "rare",
+    "habitat": "海洋"
+  },
+  {
+    "id": 92,
+    "name": "鬼斯",
+    "englishName": "Gastly",
+    "type": [
+      "幽灵",
+      "毒"
+    ],
+    "category": "气体状宝可梦",
+    "description": "身体主要由气体构成。",
+    "rocketValue": 65,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/092.png",
+    "rarity": "common",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 93,
+    "name": "鬼斯通",
+    "englishName": "Haunter",
+    "type": [
+      "幽灵",
+      "毒"
+    ],
+    "category": "气体状宝可梦",
+    "description": "鬼斯通是气体状宝可梦，拥有幽灵、毒属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/093.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 94,
+    "name": "耿鬼",
+    "englishName": "Gengar",
+    "type": [
+      "幽灵",
+      "毒"
+    ],
+    "category": "影子宝可梦",
+    "description": "耿鬼是影子宝可梦，拥有幽灵、毒属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/094.png",
+    "rarity": "rare",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 95,
+    "name": "大岩蛇",
+    "englishName": "Onix",
+    "type": [
+      "岩石",
+      "地面"
+    ],
+    "category": "岩蛇宝可梦",
+    "description": "大岩蛇是岩蛇宝可梦，拥有岩石、地面属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 77,
+    "researchValue": 48,
+    "sprite": "assets/pokemon/sprites/095.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 96,
+    "name": "催眠貘",
+    "englishName": "Drowzee",
+    "type": [
+      "超能力"
+    ],
+    "category": "催眠宝可梦",
+    "description": "催眠貘是催眠宝可梦，拥有超能力属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 66,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/096.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 97,
+    "name": "引梦貘人",
+    "englishName": "Hypno",
+    "type": [
+      "超能力"
+    ],
+    "category": "催眠宝可梦",
+    "description": "引梦貘人是催眠宝可梦，拥有超能力属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 97,
+    "researchValue": 60,
+    "sprite": "assets/pokemon/sprites/097.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 98,
+    "name": "大钳蟹",
+    "englishName": "Krabby",
+    "type": [
+      "水"
+    ],
+    "category": "清水蟹宝可梦",
+    "description": "大钳蟹是清水蟹宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 65,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/098.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 99,
+    "name": "巨钳蟹",
+    "englishName": "Kingler",
+    "type": [
+      "水"
+    ],
+    "category": "钳子宝可梦",
+    "description": "巨钳蟹是钳子宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 95,
+    "researchValue": 59,
+    "sprite": "assets/pokemon/sprites/099.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 100,
+    "name": "霹雳电球",
+    "englishName": "Voltorb",
+    "type": [
+      "电"
+    ],
+    "category": "球宝可梦",
+    "description": "霹雳电球是球宝可梦，拥有电属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 66,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/100.png",
+    "rarity": "common",
+    "habitat": "水边"
+  },
+  {
+    "id": 101,
+    "name": "顽皮雷弹",
+    "englishName": "Electrode",
+    "type": [
+      "电"
+    ],
+    "category": "球宝可梦",
+    "description": "顽皮雷弹是球宝可梦，拥有电属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/101.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 102,
+    "name": "蛋蛋",
+    "englishName": "Exeggcute",
+    "type": [
+      "草",
+      "超能力"
+    ],
+    "category": "蛋宝可梦",
+    "description": "蛋蛋是蛋宝可梦，拥有草、超能力属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 65,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/102.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 103,
+    "name": "椰蛋树",
+    "englishName": "Exeggutor",
+    "type": [
+      "草",
+      "超能力"
+    ],
+    "category": "椰子宝可梦",
+    "description": "椰蛋树是椰子宝可梦，拥有草、超能力属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 106,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/103.png",
+    "rarity": "rare",
+    "habitat": "森林"
+  },
+  {
+    "id": 104,
+    "name": "卡拉卡拉",
+    "englishName": "Cubone",
+    "type": [
+      "地面"
+    ],
+    "category": "孤独宝可梦",
+    "description": "卡拉卡拉是孤独宝可梦，拥有地面属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 64,
+    "researchValue": 40,
+    "sprite": "assets/pokemon/sprites/104.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 105,
+    "name": "嘎啦嘎啦",
+    "englishName": "Marowak",
+    "type": [
+      "地面"
+    ],
+    "category": "爱骨宝可梦",
+    "description": "嘎啦嘎啦是爱骨宝可梦，拥有地面属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 85,
+    "researchValue": 53,
+    "sprite": "assets/pokemon/sprites/105.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 106,
+    "name": "飞腿郎",
+    "englishName": "Hitmonlee",
+    "type": [
+      "格斗"
+    ],
+    "category": "踢腿宝可梦",
+    "description": "飞腿郎是踢腿宝可梦，拥有格斗属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/106.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 107,
+    "name": "快拳郎",
+    "englishName": "Hitmonchan",
+    "type": [
+      "格斗"
+    ],
+    "category": "拳击宝可梦",
+    "description": "快拳郎是拳击宝可梦，拥有格斗属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/107.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 108,
+    "name": "大舌头",
+    "englishName": "Lickitung",
+    "type": [
+      "一般"
+    ],
+    "category": "舔舔宝可梦",
+    "description": "大舌头是舔舔宝可梦，拥有一般属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 77,
+    "researchValue": 48,
+    "sprite": "assets/pokemon/sprites/108.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 109,
+    "name": "瓦斯弹",
+    "englishName": "Koffing",
+    "type": [
+      "毒"
+    ],
+    "category": "毒气宝可梦",
+    "description": "圆形身体内部储存着气体。",
+    "rocketValue": 70,
+    "researchValue": 55,
+    "sprite": "assets/pokemon/sprites/109.png",
+    "rarity": "common",
+    "habitat": "水边"
+  },
+  {
+    "id": 110,
+    "name": "双弹瓦斯",
+    "englishName": "Weezing",
+    "type": [
+      "毒"
+    ],
+    "category": "毒气宝可梦",
+    "description": "双弹瓦斯是毒气宝可梦，拥有毒属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/110.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 111,
+    "name": "独角犀牛",
+    "englishName": "Rhyhorn",
+    "type": [
+      "地面",
+      "岩石"
+    ],
+    "category": "尖尖宝可梦",
+    "description": "独角犀牛是尖尖宝可梦，拥有地面、岩石属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 69,
+    "researchValue": 43,
+    "sprite": "assets/pokemon/sprites/111.png",
+    "rarity": "common",
+    "habitat": "荒野"
+  },
+  {
+    "id": 112,
+    "name": "钻角犀兽",
+    "englishName": "Rhydon",
+    "type": [
+      "地面",
+      "岩石"
+    ],
+    "category": "钻锥宝可梦",
+    "description": "钻角犀兽是钻锥宝可梦，拥有地面、岩石属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 97,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/112.png",
+    "rarity": "uncommon",
+    "habitat": "荒野"
+  },
+  {
+    "id": 113,
+    "name": "吉利蛋",
+    "englishName": "Chansey",
+    "type": [
+      "一般"
+    ],
+    "category": "蛋宝可梦",
+    "description": "吉利蛋是蛋宝可梦，拥有一般属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 90,
+    "researchValue": 56,
+    "sprite": "assets/pokemon/sprites/113.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 114,
+    "name": "蔓藤怪",
+    "englishName": "Tangela",
+    "type": [
+      "草"
+    ],
+    "category": "藤蔓状宝可梦",
+    "description": "蔓藤怪是藤蔓状宝可梦，拥有草属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 87,
+    "researchValue": 54,
+    "sprite": "assets/pokemon/sprites/114.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 115,
+    "name": "袋兽",
+    "englishName": "Kangaskhan",
+    "type": [
+      "一般"
+    ],
+    "category": "亲子宝可梦",
+    "description": "袋兽是亲子宝可梦，拥有一般属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/115.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 116,
+    "name": "墨海马",
+    "englishName": "Horsea",
+    "type": [
+      "水"
+    ],
+    "category": "龙宝可梦",
+    "description": "墨海马是龙宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 59,
+    "researchValue": 37,
+    "sprite": "assets/pokemon/sprites/116.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 117,
+    "name": "海刺龙",
+    "englishName": "Seadra",
+    "type": [
+      "水"
+    ],
+    "category": "龙宝可梦",
+    "description": "海刺龙是龙宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 88,
+    "researchValue": 55,
+    "sprite": "assets/pokemon/sprites/117.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 118,
+    "name": "角金鱼",
+    "englishName": "Goldeen",
+    "type": [
+      "水"
+    ],
+    "category": "金鱼宝可梦",
+    "description": "角金鱼是金鱼宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 64,
+    "researchValue": 40,
+    "sprite": "assets/pokemon/sprites/118.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 119,
+    "name": "金鱼王",
+    "englishName": "Seaking",
+    "type": [
+      "水"
+    ],
+    "category": "金鱼宝可梦",
+    "description": "金鱼王是金鱼宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 90,
+    "researchValue": 56,
+    "sprite": "assets/pokemon/sprites/119.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 120,
+    "name": "海星星",
+    "englishName": "Staryu",
+    "type": [
+      "水"
+    ],
+    "category": "星形宝可梦",
+    "description": "海星星是星形宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 68,
+    "researchValue": 43,
+    "sprite": "assets/pokemon/sprites/120.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 121,
+    "name": "宝石海星",
+    "englishName": "Starmie",
+    "type": [
+      "水",
+      "超能力"
+    ],
+    "category": "谜宝可梦",
+    "description": "宝石海星是谜宝可梦，拥有水、超能力属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 104,
+    "researchValue": 65,
+    "sprite": "assets/pokemon/sprites/121.png",
+    "rarity": "rare",
+    "habitat": "海洋"
+  },
+  {
+    "id": 122,
+    "name": "魔墙人偶",
+    "englishName": "Mr. Mime",
+    "type": [
+      "超能力",
+      "妖精"
+    ],
+    "category": "屏障宝可梦",
+    "description": "魔墙人偶是屏障宝可梦，拥有超能力、妖精属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 92,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/122.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 123,
+    "name": "飞天螳螂",
+    "englishName": "Scyther",
+    "type": [
+      "虫",
+      "飞行"
+    ],
+    "category": "螳螂宝可梦",
+    "description": "飞天螳螂是螳螂宝可梦，拥有虫、飞行属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/123.png",
+    "rarity": "rare",
+    "habitat": "草地"
+  },
+  {
+    "id": 124,
+    "name": "迷唇姐",
+    "englishName": "Jynx",
+    "type": [
+      "冰",
+      "超能力"
+    ],
+    "category": "人形宝可梦",
+    "description": "迷唇姐是人形宝可梦，拥有冰、超能力属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/124.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 125,
+    "name": "电击兽",
+    "englishName": "Electabuzz",
+    "type": [
+      "电"
+    ],
+    "category": "电击宝可梦",
+    "description": "电击兽是电击宝可梦，拥有电属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/125.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 126,
+    "name": "鸭嘴火兽",
+    "englishName": "Magmar",
+    "type": [
+      "火"
+    ],
+    "category": "吐火宝可梦",
+    "description": "鸭嘴火兽是吐火宝可梦，拥有火属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 99,
+    "researchValue": 62,
+    "sprite": "assets/pokemon/sprites/126.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 127,
+    "name": "凯罗斯",
+    "englishName": "Pinsir",
+    "type": [
+      "虫"
+    ],
+    "category": "锹形虫宝可梦",
+    "description": "凯罗斯是锹形虫宝可梦，拥有虫属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/127.png",
+    "rarity": "rare",
+    "habitat": "森林"
+  },
+  {
+    "id": 128,
+    "name": "肯泰罗",
+    "englishName": "Tauros",
+    "type": [
+      "一般"
+    ],
+    "category": "暴牛宝可梦",
+    "description": "肯泰罗是暴牛宝可梦，拥有一般属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/128.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 129,
+    "name": "鲤鱼王",
+    "englishName": "Magikarp",
+    "type": [
+      "水"
+    ],
+    "category": "鱼宝可梦",
+    "description": "鲤鱼王是鱼宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 40,
+    "researchValue": 25,
+    "sprite": "assets/pokemon/sprites/129.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 130,
+    "name": "暴鲤龙",
+    "englishName": "Gyarados",
+    "type": [
+      "水",
+      "飞行"
+    ],
+    "category": "凶恶宝可梦",
+    "description": "暴鲤龙是凶恶宝可梦，拥有水、飞行属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 108,
+    "researchValue": 68,
+    "sprite": "assets/pokemon/sprites/130.png",
+    "rarity": "rare",
+    "habitat": "城市"
+  },
+  {
+    "id": 131,
+    "name": "拉普拉斯",
+    "englishName": "Lapras",
+    "type": [
+      "水",
+      "冰"
+    ],
+    "category": "乘载宝可梦",
+    "description": "拉普拉斯是乘载宝可梦，拥有水、冰属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 107,
+    "researchValue": 67,
+    "sprite": "assets/pokemon/sprites/131.png",
+    "rarity": "rare",
+    "habitat": "海洋"
+  },
+  {
+    "id": 132,
+    "name": "百变怪",
+    "englishName": "Ditto",
+    "type": [
+      "一般"
+    ],
+    "category": "变身宝可梦",
+    "description": "百变怪是变身宝可梦，拥有一般属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 58,
+    "researchValue": 36,
+    "sprite": "assets/pokemon/sprites/132.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 133,
+    "name": "伊布",
+    "englishName": "Eevee",
+    "type": [
+      "一般"
+    ],
+    "category": "进化宝可梦",
+    "description": "具有多种进化的可能性。",
+    "rocketValue": 75,
+    "researchValue": 59,
+    "sprite": "assets/pokemon/sprites/133.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 134,
+    "name": "水伊布",
+    "englishName": "Vaporeon",
+    "type": [
+      "水"
+    ],
+    "category": "吐泡宝可梦",
+    "description": "水伊布是吐泡宝可梦，拥有水属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 105,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/134.png",
+    "rarity": "rare",
+    "habitat": "水边"
+  },
+  {
+    "id": 135,
+    "name": "雷伊布",
+    "englishName": "Jolteon",
+    "type": [
+      "电"
+    ],
+    "category": "雷宝可梦",
+    "description": "雷伊布是雷宝可梦，拥有电属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 105,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/135.png",
+    "rarity": "rare",
+    "habitat": "水边"
+  },
+  {
+    "id": 136,
+    "name": "火伊布",
+    "englishName": "Flareon",
+    "type": [
+      "火"
+    ],
+    "category": "火宝可梦",
+    "description": "火伊布是火宝可梦，拥有火属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 105,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/136.png",
+    "rarity": "rare",
+    "habitat": "水边"
+  },
+  {
+    "id": 137,
+    "name": "多边兽",
+    "englishName": "Porygon",
+    "type": [
+      "一般"
+    ],
+    "category": "虚拟宝可梦",
+    "description": "多边兽是虚拟宝可梦，拥有一般属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 79,
+    "researchValue": 49,
+    "sprite": "assets/pokemon/sprites/137.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 138,
+    "name": "菊石兽",
+    "englishName": "Omanyte",
+    "type": [
+      "岩石",
+      "水"
+    ],
+    "category": "漩涡宝可梦",
+    "description": "菊石兽是漩涡宝可梦，拥有岩石、水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 71,
+    "researchValue": 44,
+    "sprite": "assets/pokemon/sprites/138.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 139,
+    "name": "多刺菊石兽",
+    "englishName": "Omastar",
+    "type": [
+      "岩石",
+      "水"
+    ],
+    "category": "漩涡宝可梦",
+    "description": "多刺菊石兽是漩涡宝可梦，拥有岩石、水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 99,
+    "researchValue": 62,
+    "sprite": "assets/pokemon/sprites/139.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 140,
+    "name": "化石盔",
+    "englishName": "Kabuto",
+    "type": [
+      "岩石",
+      "水"
+    ],
+    "category": "甲壳宝可梦",
+    "description": "化石盔是甲壳宝可梦，拥有岩石、水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 71,
+    "researchValue": 44,
+    "sprite": "assets/pokemon/sprites/140.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 141,
+    "name": "镰刀盔",
+    "englishName": "Kabutops",
+    "type": [
+      "岩石",
+      "水"
+    ],
+    "category": "甲壳宝可梦",
+    "description": "镰刀盔是甲壳宝可梦，拥有岩石、水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 99,
+    "researchValue": 62,
+    "sprite": "assets/pokemon/sprites/141.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 142,
+    "name": "化石翼龙",
+    "englishName": "Aerodactyl",
+    "type": [
+      "岩石",
+      "飞行"
+    ],
+    "category": "化石宝可梦",
+    "description": "化石翼龙是化石宝可梦，拥有岩石、飞行属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 103,
+    "researchValue": 64,
+    "sprite": "assets/pokemon/sprites/142.png",
+    "rarity": "rare",
+    "habitat": "山地"
+  },
+  {
+    "id": 143,
+    "name": "卡比兽",
+    "englishName": "Snorlax",
+    "type": [
+      "一般"
+    ],
+    "category": "瞌睡宝可梦",
+    "description": "卡比兽是瞌睡宝可梦，拥有一般属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 108,
+    "researchValue": 68,
+    "sprite": "assets/pokemon/sprites/143.png",
+    "rarity": "rare",
+    "habitat": "山地"
+  },
+  {
+    "id": 144,
+    "name": "急冻鸟",
+    "englishName": "Articuno",
+    "type": [
+      "冰",
+      "飞行"
+    ],
+    "category": "冰冻宝可梦",
+    "description": "急冻鸟是冰冻宝可梦，拥有冰、飞行属性。图鉴栖息地记录为稀有区域，可在外围调查中寻找。",
+    "rocketValue": 116,
+    "researchValue": 73,
+    "sprite": "assets/pokemon/sprites/144.png",
+    "rarity": "legendary",
+    "habitat": "稀有区域"
+  },
+  {
+    "id": 145,
+    "name": "闪电鸟",
+    "englishName": "Zapdos",
+    "type": [
+      "电",
+      "飞行"
+    ],
+    "category": "电击宝可梦",
+    "description": "闪电鸟是电击宝可梦，拥有电、飞行属性。图鉴栖息地记录为稀有区域，可在外围调查中寻找。",
+    "rocketValue": 116,
+    "researchValue": 73,
+    "sprite": "assets/pokemon/sprites/145.png",
+    "rarity": "legendary",
+    "habitat": "稀有区域"
+  },
+  {
+    "id": 146,
+    "name": "火焰鸟",
+    "englishName": "Moltres",
+    "type": [
+      "火",
+      "飞行"
+    ],
+    "category": "火焰宝可梦",
+    "description": "火焰鸟是火焰宝可梦，拥有火、飞行属性。图鉴栖息地记录为稀有区域，可在外围调查中寻找。",
+    "rocketValue": 116,
+    "researchValue": 73,
+    "sprite": "assets/pokemon/sprites/146.png",
+    "rarity": "legendary",
+    "habitat": "稀有区域"
+  },
+  {
+    "id": 147,
+    "name": "迷你龙",
+    "englishName": "Dratini",
+    "type": [
+      "龙"
+    ],
+    "category": "龙宝可梦",
+    "description": "迷你龙是龙宝可梦，拥有龙属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/147.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 148,
+    "name": "哈克龙",
+    "englishName": "Dragonair",
+    "type": [
+      "龙"
+    ],
+    "category": "龙宝可梦",
+    "description": "哈克龙是龙宝可梦，拥有龙属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 84,
+    "researchValue": 53,
+    "sprite": "assets/pokemon/sprites/148.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 149,
+    "name": "快龙",
+    "englishName": "Dragonite",
+    "type": [
+      "龙",
+      "飞行"
+    ],
+    "category": "龙宝可梦",
+    "description": "快龙是龙宝可梦，拥有龙、飞行属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 120,
+    "researchValue": 75,
+    "sprite": "assets/pokemon/sprites/149.png",
+    "rarity": "rare",
+    "habitat": "城市"
+  },
+  {
+    "id": 150,
+    "name": "超梦",
+    "englishName": "Mewtwo",
+    "type": [
+      "超能力"
+    ],
+    "category": "基因宝可梦",
+    "description": "超梦是基因宝可梦，拥有超能力属性。图鉴栖息地记录为稀有区域，可在外围调查中寻找。",
+    "rocketValue": 136,
+    "researchValue": 85,
+    "sprite": "assets/pokemon/sprites/150.png",
+    "rarity": "legendary",
+    "habitat": "稀有区域"
+  },
+  {
+    "id": 151,
+    "name": "梦幻",
+    "englishName": "Mew",
+    "type": [
+      "超能力"
+    ],
+    "category": "新种宝可梦",
+    "description": "梦幻是新种宝可梦，拥有超能力属性。图鉴栖息地记录为稀有区域，可在外围调查中寻找。",
+    "rocketValue": 120,
+    "researchValue": 75,
+    "sprite": "assets/pokemon/sprites/151.png",
+    "rarity": "legendary",
+    "habitat": "稀有区域"
+  },
+  {
+    "id": 152,
+    "name": "菊草叶",
+    "englishName": "Chikorita",
+    "type": [
+      "草"
+    ],
+    "category": "叶子宝可梦",
+    "description": "菊草叶是叶子宝可梦，拥有草属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 64,
+    "researchValue": 40,
+    "sprite": "assets/pokemon/sprites/152.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 153,
+    "name": "月桂叶",
+    "englishName": "Bayleef",
+    "type": [
+      "草"
+    ],
+    "category": "叶子宝可梦",
+    "description": "月桂叶是叶子宝可梦，拥有草属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/153.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 154,
+    "name": "大竺葵",
+    "englishName": "Meganium",
+    "type": [
+      "草"
+    ],
+    "category": "芳草宝可梦",
+    "description": "大竺葵是芳草宝可梦，拥有草属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 105,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/154.png",
+    "rarity": "rare",
+    "habitat": "草地"
+  },
+  {
+    "id": 155,
+    "name": "火球鼠",
+    "englishName": "Cyndaquil",
+    "type": [
+      "火"
+    ],
+    "category": "火鼠宝可梦",
+    "description": "火球鼠是火鼠宝可梦，拥有火属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 62,
+    "researchValue": 39,
+    "sprite": "assets/pokemon/sprites/155.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 156,
+    "name": "火岩鼠",
+    "englishName": "Quilava",
+    "type": [
+      "火"
+    ],
+    "category": "火山宝可梦",
+    "description": "火岩鼠是火山宝可梦，拥有火属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/156.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 157,
+    "name": "火暴兽",
+    "englishName": "Typhlosion",
+    "type": [
+      "火"
+    ],
+    "category": "火山宝可梦",
+    "description": "火暴兽是火山宝可梦，拥有火属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 107,
+    "researchValue": 67,
+    "sprite": "assets/pokemon/sprites/157.png",
+    "rarity": "rare",
+    "habitat": "草地"
+  },
+  {
+    "id": 158,
+    "name": "小锯鳄",
+    "englishName": "Totodile",
+    "type": [
+      "水"
+    ],
+    "category": "大颚宝可梦",
+    "description": "小锯鳄是大颚宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 63,
+    "researchValue": 39,
+    "sprite": "assets/pokemon/sprites/158.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 159,
+    "name": "蓝鳄",
+    "englishName": "Croconaw",
+    "type": [
+      "水"
+    ],
+    "category": "大颚宝可梦",
+    "description": "蓝鳄是大颚宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/159.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 160,
+    "name": "大力鳄",
+    "englishName": "Feraligatr",
+    "type": [
+      "水"
+    ],
+    "category": "大颚宝可梦",
+    "description": "大力鳄是大颚宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 106,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/160.png",
+    "rarity": "rare",
+    "habitat": "城市"
+  },
+  {
+    "id": 161,
+    "name": "尾立",
+    "englishName": "Sentret",
+    "type": [
+      "一般"
+    ],
+    "category": "放哨宝可梦",
+    "description": "尾立是放哨宝可梦，拥有一般属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 43,
+    "researchValue": 27,
+    "sprite": "assets/pokemon/sprites/161.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 162,
+    "name": "大尾立",
+    "englishName": "Furret",
+    "type": [
+      "一般"
+    ],
+    "category": "长躯干宝可梦",
+    "description": "大尾立是长躯干宝可梦，拥有一般属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 83,
+    "researchValue": 52,
+    "sprite": "assets/pokemon/sprites/162.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 163,
+    "name": "咕咕",
+    "englishName": "Hoothoot",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "猫头鹰宝可梦",
+    "description": "咕咕是猫头鹰宝可梦，拥有一般、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 52,
+    "researchValue": 33,
+    "sprite": "assets/pokemon/sprites/163.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 164,
+    "name": "猫头夜鹰",
+    "englishName": "Noctowl",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "猫头鹰宝可梦",
+    "description": "猫头夜鹰是猫头鹰宝可梦，拥有一般、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 90,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/164.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 165,
+    "name": "芭瓢虫",
+    "englishName": "Ledyba",
+    "type": [
+      "虫",
+      "飞行"
+    ],
+    "category": "五星宝可梦",
+    "description": "芭瓢虫是五星宝可梦，拥有虫、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 53,
+    "researchValue": 33,
+    "sprite": "assets/pokemon/sprites/165.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 166,
+    "name": "安瓢虫",
+    "englishName": "Ledian",
+    "type": [
+      "虫",
+      "飞行"
+    ],
+    "category": "五星宝可梦",
+    "description": "安瓢虫是五星宝可梦，拥有虫、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 78,
+    "researchValue": 49,
+    "sprite": "assets/pokemon/sprites/166.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 167,
+    "name": "圆丝蛛",
+    "englishName": "Spinarak",
+    "type": [
+      "虫",
+      "毒"
+    ],
+    "category": "吐丝宝可梦",
+    "description": "圆丝蛛是吐丝宝可梦，拥有虫、毒属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 50,
+    "researchValue": 31,
+    "sprite": "assets/pokemon/sprites/167.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 168,
+    "name": "阿利多斯",
+    "englishName": "Ariados",
+    "type": [
+      "虫",
+      "毒"
+    ],
+    "category": "长腿宝可梦",
+    "description": "阿利多斯是长腿宝可梦，拥有虫、毒属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 80,
+    "researchValue": 50,
+    "sprite": "assets/pokemon/sprites/168.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 169,
+    "name": "叉字蝠",
+    "englishName": "Crobat",
+    "type": [
+      "毒",
+      "飞行"
+    ],
+    "category": "蝙蝠宝可梦",
+    "description": "叉字蝠是蝙蝠宝可梦，拥有毒、飞行属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 107,
+    "researchValue": 67,
+    "sprite": "assets/pokemon/sprites/169.png",
+    "rarity": "rare",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 170,
+    "name": "灯笼鱼",
+    "englishName": "Chinchou",
+    "type": [
+      "水",
+      "电"
+    ],
+    "category": "琵琶鱼宝可梦",
+    "description": "灯笼鱼是琵琶鱼宝可梦，拥有水、电属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 66,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/170.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 171,
+    "name": "电灯怪",
+    "englishName": "Lanturn",
+    "type": [
+      "水",
+      "电"
+    ],
+    "category": "灯宝可梦",
+    "description": "电灯怪是灯宝可梦，拥有水、电属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 92,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/171.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 172,
+    "name": "皮丘",
+    "englishName": "Pichu",
+    "type": [
+      "电"
+    ],
+    "category": "小鼠宝可梦",
+    "description": "皮丘是小鼠宝可梦，拥有电属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 41,
+    "researchValue": 26,
+    "sprite": "assets/pokemon/sprites/172.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 173,
+    "name": "皮宝宝",
+    "englishName": "Cleffa",
+    "type": [
+      "妖精"
+    ],
+    "category": "星形宝可梦",
+    "description": "皮宝宝是星形宝可梦，拥有妖精属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 44,
+    "researchValue": 27,
+    "sprite": "assets/pokemon/sprites/173.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 174,
+    "name": "宝宝丁",
+    "englishName": "Igglybuff",
+    "type": [
+      "一般",
+      "妖精"
+    ],
+    "category": "气球宝可梦",
+    "description": "宝宝丁是气球宝可梦，拥有一般、妖精属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 42,
+    "researchValue": 26,
+    "sprite": "assets/pokemon/sprites/174.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 175,
+    "name": "波克比",
+    "englishName": "Togepi",
+    "type": [
+      "妖精"
+    ],
+    "category": "针球宝可梦",
+    "description": "波克比是针球宝可梦，拥有妖精属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 49,
+    "researchValue": 31,
+    "sprite": "assets/pokemon/sprites/175.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 176,
+    "name": "波克基古",
+    "englishName": "Togetic",
+    "type": [
+      "妖精",
+      "飞行"
+    ],
+    "category": "幸福宝可梦",
+    "description": "波克基古是幸福宝可梦，拥有妖精、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/176.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 177,
+    "name": "天然雀",
+    "englishName": "Natu",
+    "type": [
+      "超能力",
+      "飞行"
+    ],
+    "category": "小鸟宝可梦",
+    "description": "天然雀是小鸟宝可梦，拥有超能力、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 64,
+    "researchValue": 40,
+    "sprite": "assets/pokemon/sprites/177.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 178,
+    "name": "天然鸟",
+    "englishName": "Xatu",
+    "type": [
+      "超能力",
+      "飞行"
+    ],
+    "category": "神秘宝可梦",
+    "description": "天然鸟是神秘宝可梦，拥有超能力、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 94,
+    "researchValue": 59,
+    "sprite": "assets/pokemon/sprites/178.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 179,
+    "name": "咩利羊",
+    "englishName": "Mareep",
+    "type": [
+      "电"
+    ],
+    "category": "绵毛宝可梦",
+    "description": "咩利羊是绵毛宝可梦，拥有电属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 56,
+    "researchValue": 35,
+    "sprite": "assets/pokemon/sprites/179.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 180,
+    "name": "茸茸羊",
+    "englishName": "Flaaffy",
+    "type": [
+      "电"
+    ],
+    "category": "绵毛宝可梦",
+    "description": "茸茸羊是绵毛宝可梦，拥有电属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 73,
+    "researchValue": 46,
+    "sprite": "assets/pokemon/sprites/180.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 181,
+    "name": "电龙",
+    "englishName": "Ampharos",
+    "type": [
+      "电"
+    ],
+    "category": "灯宝可梦",
+    "description": "电龙是灯宝可梦，拥有电属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 102,
+    "researchValue": 64,
+    "sprite": "assets/pokemon/sprites/181.png",
+    "rarity": "rare",
+    "habitat": "草地"
+  },
+  {
+    "id": 182,
+    "name": "美丽花",
+    "englishName": "Bellossom",
+    "type": [
+      "草"
+    ],
+    "category": "花宝可梦",
+    "description": "美丽花是花宝可梦，拥有草属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/182.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 183,
+    "name": "玛力露",
+    "englishName": "Marill",
+    "type": [
+      "水",
+      "妖精"
+    ],
+    "category": "水鼠宝可梦",
+    "description": "玛力露是水鼠宝可梦，拥有水、妖精属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 50,
+    "researchValue": 31,
+    "sprite": "assets/pokemon/sprites/183.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 184,
+    "name": "玛力露丽",
+    "englishName": "Azumarill",
+    "type": [
+      "水",
+      "妖精"
+    ],
+    "category": "水兔宝可梦",
+    "description": "玛力露丽是水兔宝可梦，拥有水、妖精属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 84,
+    "researchValue": 53,
+    "sprite": "assets/pokemon/sprites/184.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 185,
+    "name": "树才怪",
+    "englishName": "Sudowoodo",
+    "type": [
+      "岩石"
+    ],
+    "category": "模仿宝可梦",
+    "description": "树才怪是模仿宝可梦，拥有岩石属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 82,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/185.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 186,
+    "name": "蚊香蛙皇",
+    "englishName": "Politoed",
+    "type": [
+      "水"
+    ],
+    "category": "蛙宝可梦",
+    "description": "蚊香蛙皇是蛙宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/186.png",
+    "rarity": "rare",
+    "habitat": "城市"
+  },
+  {
+    "id": 187,
+    "name": "毽子草",
+    "englishName": "Hoppip",
+    "type": [
+      "草",
+      "飞行"
+    ],
+    "category": "棉草宝可梦",
+    "description": "毽子草是棉草宝可梦，拥有草、飞行属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 50,
+    "researchValue": 31,
+    "sprite": "assets/pokemon/sprites/187.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 188,
+    "name": "毽子花",
+    "englishName": "Skiploom",
+    "type": [
+      "草",
+      "飞行"
+    ],
+    "category": "棉草宝可梦",
+    "description": "毽子花是棉草宝可梦，拥有草、飞行属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 68,
+    "researchValue": 43,
+    "sprite": "assets/pokemon/sprites/188.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 189,
+    "name": "毽子棉",
+    "englishName": "Jumpluff",
+    "type": [
+      "草",
+      "飞行"
+    ],
+    "category": "棉草宝可梦",
+    "description": "毽子棉是棉草宝可梦，拥有草、飞行属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 92,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/189.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 190,
+    "name": "长尾怪手",
+    "englishName": "Aipom",
+    "type": [
+      "一般"
+    ],
+    "category": "长尾宝可梦",
+    "description": "长尾怪手是长尾宝可梦，拥有一般属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 72,
+    "researchValue": 45,
+    "sprite": "assets/pokemon/sprites/190.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 191,
+    "name": "向日种子",
+    "englishName": "Sunkern",
+    "type": [
+      "草"
+    ],
+    "category": "种子宝可梦",
+    "description": "向日种子是种子宝可梦，拥有草属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 36,
+    "researchValue": 23,
+    "sprite": "assets/pokemon/sprites/191.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 192,
+    "name": "向日花怪",
+    "englishName": "Sunflora",
+    "type": [
+      "草"
+    ],
+    "category": "太阳宝可梦",
+    "description": "向日花怪是太阳宝可梦，拥有草属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 85,
+    "researchValue": 53,
+    "sprite": "assets/pokemon/sprites/192.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 193,
+    "name": "蜻蜻蜓",
+    "englishName": "Yanma",
+    "type": [
+      "虫",
+      "飞行"
+    ],
+    "category": "薄翼宝可梦",
+    "description": "蜻蜻蜓是薄翼宝可梦，拥有虫、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 78,
+    "researchValue": 49,
+    "sprite": "assets/pokemon/sprites/193.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 194,
+    "name": "乌波",
+    "englishName": "Wooper",
+    "type": [
+      "水",
+      "地面"
+    ],
+    "category": "水鱼宝可梦",
+    "description": "乌波是水鱼宝可梦，拥有水、地面属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 42,
+    "researchValue": 26,
+    "sprite": "assets/pokemon/sprites/194.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 195,
+    "name": "沼王",
+    "englishName": "Quagsire",
+    "type": [
+      "水",
+      "地面"
+    ],
+    "category": "水鱼宝可梦",
+    "description": "沼王是水鱼宝可梦，拥有水、地面属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 86,
+    "researchValue": 54,
+    "sprite": "assets/pokemon/sprites/195.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 196,
+    "name": "太阳伊布",
+    "englishName": "Espeon",
+    "type": [
+      "超能力"
+    ],
+    "category": "太阳宝可梦",
+    "description": "太阳伊布是太阳宝可梦，拥有超能力属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 105,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/196.png",
+    "rarity": "rare",
+    "habitat": "水边"
+  },
+  {
+    "id": 197,
+    "name": "月亮伊布",
+    "englishName": "Umbreon",
+    "type": [
+      "恶"
+    ],
+    "category": "月光宝可梦",
+    "description": "月亮伊布是月光宝可梦，拥有恶属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 105,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/197.png",
+    "rarity": "rare",
+    "habitat": "水边"
+  },
+  {
+    "id": 198,
+    "name": "黑暗鸦",
+    "englishName": "Murkrow",
+    "type": [
+      "恶",
+      "飞行"
+    ],
+    "category": "黑暗宝可梦",
+    "description": "黑暗鸦是黑暗宝可梦，拥有恶、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/198.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 199,
+    "name": "呆呆王",
+    "englishName": "Slowking",
+    "type": [
+      "水",
+      "超能力"
+    ],
+    "category": "王者宝可梦",
+    "description": "呆呆王是王者宝可梦，拥有水、超能力属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/199.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 200,
+    "name": "梦妖",
+    "englishName": "Misdreavus",
+    "type": [
+      "幽灵"
+    ],
+    "category": "夜啼宝可梦",
+    "description": "梦妖是夜啼宝可梦，拥有幽灵属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 87,
+    "researchValue": 54,
+    "sprite": "assets/pokemon/sprites/200.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 201,
+    "name": "未知图腾",
+    "englishName": "Unown",
+    "type": [
+      "超能力"
+    ],
+    "category": "象征宝可梦",
+    "description": "未知图腾是象征宝可梦，拥有超能力属性。图鉴栖息地记录为稀有区域，可在外围调查中寻找。",
+    "rocketValue": 67,
+    "researchValue": 42,
+    "sprite": "assets/pokemon/sprites/201.png",
+    "rarity": "common",
+    "habitat": "稀有区域"
+  },
+  {
+    "id": 202,
+    "name": "果然翁",
+    "englishName": "Wobbuffet",
+    "type": [
+      "超能力"
+    ],
+    "category": "忍耐宝可梦",
+    "description": "果然翁是忍耐宝可梦，拥有超能力属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/202.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 203,
+    "name": "麒麟奇",
+    "englishName": "Girafarig",
+    "type": [
+      "一般",
+      "超能力"
+    ],
+    "category": "长颈宝可梦",
+    "description": "麒麟奇是长颈宝可梦，拥有一般、超能力属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/203.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 204,
+    "name": "榛果球",
+    "englishName": "Pineco",
+    "type": [
+      "虫"
+    ],
+    "category": "蓑衣虫宝可梦",
+    "description": "榛果球是蓑衣虫宝可梦，拥有虫属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 58,
+    "researchValue": 36,
+    "sprite": "assets/pokemon/sprites/204.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 205,
+    "name": "佛烈托斯",
+    "englishName": "Forretress",
+    "type": [
+      "虫",
+      "钢"
+    ],
+    "category": "蓑衣虫宝可梦",
+    "description": "佛烈托斯是蓑衣虫宝可梦，拥有虫、钢属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 93,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/205.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 206,
+    "name": "土龙弟弟",
+    "englishName": "Dunsparce",
+    "type": [
+      "一般"
+    ],
+    "category": "地蛇宝可梦",
+    "description": "土龙弟弟是地蛇宝可梦，拥有一般属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 83,
+    "researchValue": 52,
+    "sprite": "assets/pokemon/sprites/206.png",
+    "rarity": "common",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 207,
+    "name": "天蝎",
+    "englishName": "Gligar",
+    "type": [
+      "地面",
+      "飞行"
+    ],
+    "category": "飞蝎宝可梦",
+    "description": "天蝎是飞蝎宝可梦，拥有地面、飞行属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 86,
+    "researchValue": 54,
+    "sprite": "assets/pokemon/sprites/207.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 208,
+    "name": "大钢蛇",
+    "englishName": "Steelix",
+    "type": [
+      "钢",
+      "地面"
+    ],
+    "category": "铁蛇宝可梦",
+    "description": "大钢蛇是铁蛇宝可梦，拥有钢、地面属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 102,
+    "researchValue": 64,
+    "sprite": "assets/pokemon/sprites/208.png",
+    "rarity": "rare",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 209,
+    "name": "布鲁",
+    "englishName": "Snubbull",
+    "type": [
+      "妖精"
+    ],
+    "category": "妖精宝可梦",
+    "description": "布鲁是妖精宝可梦，拥有妖精属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/209.png",
+    "rarity": "common",
+    "habitat": "水边"
+  },
+  {
+    "id": 210,
+    "name": "布鲁皇",
+    "englishName": "Granbull",
+    "type": [
+      "妖精"
+    ],
+    "category": "妖精宝可梦",
+    "description": "布鲁皇是妖精宝可梦，拥有妖精属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 90,
+    "researchValue": 56,
+    "sprite": "assets/pokemon/sprites/210.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 211,
+    "name": "千针鱼",
+    "englishName": "Qwilfish",
+    "type": [
+      "水",
+      "毒"
+    ],
+    "category": "气球宝可梦",
+    "description": "千针鱼是气球宝可梦，拥有水、毒属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 88,
+    "researchValue": 55,
+    "sprite": "assets/pokemon/sprites/211.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 212,
+    "name": "巨钳螳螂",
+    "englishName": "Scizor",
+    "type": [
+      "虫",
+      "钢"
+    ],
+    "category": "钳子宝可梦",
+    "description": "巨钳螳螂是钳子宝可梦，拥有虫、钢属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/212.png",
+    "rarity": "rare",
+    "habitat": "草地"
+  },
+  {
+    "id": 213,
+    "name": "壶壶",
+    "englishName": "Shuckle",
+    "type": [
+      "虫",
+      "岩石"
+    ],
+    "category": "发酵宝可梦",
+    "description": "壶壶是发酵宝可梦，拥有虫、岩石属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 101,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/213.png",
+    "rarity": "rare",
+    "habitat": "山地"
+  },
+  {
+    "id": 214,
+    "name": "赫拉克罗斯",
+    "englishName": "Heracross",
+    "type": [
+      "虫",
+      "格斗"
+    ],
+    "category": "独角宝可梦",
+    "description": "赫拉克罗斯是独角宝可梦，拥有虫、格斗属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/214.png",
+    "rarity": "rare",
+    "habitat": "森林"
+  },
+  {
+    "id": 215,
+    "name": "狃拉",
+    "englishName": "Sneasel",
+    "type": [
+      "恶",
+      "冰"
+    ],
+    "category": "钩爪宝可梦",
+    "description": "狃拉是钩爪宝可梦，拥有恶、冰属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 86,
+    "researchValue": 54,
+    "sprite": "assets/pokemon/sprites/215.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 216,
+    "name": "熊宝宝",
+    "englishName": "Teddiursa",
+    "type": [
+      "一般"
+    ],
+    "category": "小熊宝可梦",
+    "description": "熊宝宝是小熊宝可梦，拥有一般属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 66,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/216.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 217,
+    "name": "圈圈熊",
+    "englishName": "Ursaring",
+    "type": [
+      "一般"
+    ],
+    "category": "冬眠宝可梦",
+    "description": "圈圈熊是冬眠宝可梦，拥有一般属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/217.png",
+    "rarity": "rare",
+    "habitat": "山地"
+  },
+  {
+    "id": 218,
+    "name": "熔岩虫",
+    "englishName": "Slugma",
+    "type": [
+      "火"
+    ],
+    "category": "熔岩宝可梦",
+    "description": "熔岩虫是熔岩宝可梦，拥有火属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 50,
+    "researchValue": 31,
+    "sprite": "assets/pokemon/sprites/218.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 219,
+    "name": "熔岩蜗牛",
+    "englishName": "Magcargo",
+    "type": [
+      "火",
+      "岩石"
+    ],
+    "category": "熔岩宝可梦",
+    "description": "熔岩蜗牛是熔岩宝可梦，拥有火、岩石属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 86,
+    "researchValue": 54,
+    "sprite": "assets/pokemon/sprites/219.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 220,
+    "name": "小山猪",
+    "englishName": "Swinub",
+    "type": [
+      "冰",
+      "地面"
+    ],
+    "category": "小猪宝可梦",
+    "description": "小山猪是小猪宝可梦，拥有冰、地面属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 50,
+    "researchValue": 31,
+    "sprite": "assets/pokemon/sprites/220.png",
+    "rarity": "common",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 221,
+    "name": "长毛猪",
+    "englishName": "Piloswine",
+    "type": [
+      "冰",
+      "地面"
+    ],
+    "category": "野猪宝可梦",
+    "description": "长毛猪是野猪宝可梦，拥有冰、地面属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 90,
+    "researchValue": 56,
+    "sprite": "assets/pokemon/sprites/221.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 222,
+    "name": "太阳珊瑚",
+    "englishName": "Corsola",
+    "type": [
+      "水",
+      "岩石"
+    ],
+    "category": "珊瑚宝可梦",
+    "description": "太阳珊瑚是珊瑚宝可梦，拥有水、岩石属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 82,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/222.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 223,
+    "name": "铁炮鱼",
+    "englishName": "Remoraid",
+    "type": [
+      "水"
+    ],
+    "category": "喷射宝可梦",
+    "description": "铁炮鱼是喷射宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/223.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 224,
+    "name": "章鱼桶",
+    "englishName": "Octillery",
+    "type": [
+      "水"
+    ],
+    "category": "喷射宝可梦",
+    "description": "章鱼桶是喷射宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 96,
+    "researchValue": 60,
+    "sprite": "assets/pokemon/sprites/224.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 225,
+    "name": "信使鸟",
+    "englishName": "Delibird",
+    "type": [
+      "冰",
+      "飞行"
+    ],
+    "category": "搬运宝可梦",
+    "description": "信使鸟是搬运宝可梦，拥有冰、飞行属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 66,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/225.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 226,
+    "name": "巨翅飞鱼",
+    "englishName": "Mantine",
+    "type": [
+      "水",
+      "飞行"
+    ],
+    "category": "风筝宝可梦",
+    "description": "巨翅飞鱼是风筝宝可梦，拥有水、飞行属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 97,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/226.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 227,
+    "name": "盔甲鸟",
+    "englishName": "Skarmory",
+    "type": [
+      "钢",
+      "飞行"
+    ],
+    "category": "钢甲鸟宝可梦",
+    "description": "盔甲鸟是钢甲鸟宝可梦，拥有钢、飞行属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 93,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/227.png",
+    "rarity": "uncommon",
+    "habitat": "荒野"
+  },
+  {
+    "id": 228,
+    "name": "戴鲁比",
+    "englishName": "Houndour",
+    "type": [
+      "恶",
+      "火"
+    ],
+    "category": "阴暗宝可梦",
+    "description": "戴鲁比是阴暗宝可梦，拥有恶、火属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 66,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/228.png",
+    "rarity": "common",
+    "habitat": "荒野"
+  },
+  {
+    "id": 229,
+    "name": "黑鲁加",
+    "englishName": "Houndoom",
+    "type": [
+      "恶",
+      "火"
+    ],
+    "category": "阴暗宝可梦",
+    "description": "黑鲁加是阴暗宝可梦，拥有恶、火属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/229.png",
+    "rarity": "rare",
+    "habitat": "荒野"
+  },
+  {
+    "id": 230,
+    "name": "刺龙王",
+    "englishName": "Kingdra",
+    "type": [
+      "水",
+      "龙"
+    ],
+    "category": "龙宝可梦",
+    "description": "刺龙王是龙宝可梦，拥有水、龙属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 108,
+    "researchValue": 68,
+    "sprite": "assets/pokemon/sprites/230.png",
+    "rarity": "rare",
+    "habitat": "海洋"
+  },
+  {
+    "id": 231,
+    "name": "小小象",
+    "englishName": "Phanpy",
+    "type": [
+      "地面"
+    ],
+    "category": "长鼻宝可梦",
+    "description": "小小象是长鼻宝可梦，拥有地面属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 66,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/231.png",
+    "rarity": "common",
+    "habitat": "荒野"
+  },
+  {
+    "id": 232,
+    "name": "顿甲",
+    "englishName": "Donphan",
+    "type": [
+      "地面"
+    ],
+    "category": "铠甲宝可梦",
+    "description": "顿甲是铠甲宝可梦，拥有地面属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/232.png",
+    "rarity": "rare",
+    "habitat": "荒野"
+  },
+  {
+    "id": 233,
+    "name": "多边兽２型",
+    "englishName": "Porygon2",
+    "type": [
+      "一般"
+    ],
+    "category": "虚拟宝可梦",
+    "description": "多边兽２型是虚拟宝可梦，拥有一般属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 103,
+    "researchValue": 64,
+    "sprite": "assets/pokemon/sprites/233.png",
+    "rarity": "rare",
+    "habitat": "水边"
+  },
+  {
+    "id": 234,
+    "name": "惊角鹿",
+    "englishName": "Stantler",
+    "type": [
+      "一般"
+    ],
+    "category": "大角宝可梦",
+    "description": "惊角鹿是大角宝可梦，拥有一般属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 93,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/234.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 235,
+    "name": "图图犬",
+    "englishName": "Smeargle",
+    "type": [
+      "一般"
+    ],
+    "category": "画画宝可梦",
+    "description": "图图犬是画画宝可梦，拥有一般属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 50,
+    "researchValue": 31,
+    "sprite": "assets/pokemon/sprites/235.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 236,
+    "name": "无畏小子",
+    "englishName": "Tyrogue",
+    "type": [
+      "格斗"
+    ],
+    "category": "打斗宝可梦",
+    "description": "无畏小子是打斗宝可梦，拥有格斗属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 42,
+    "researchValue": 26,
+    "sprite": "assets/pokemon/sprites/236.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 237,
+    "name": "战舞郎",
+    "englishName": "Hitmontop",
+    "type": [
+      "格斗"
+    ],
+    "category": "倒立宝可梦",
+    "description": "战舞郎是倒立宝可梦，拥有格斗属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/237.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 238,
+    "name": "迷唇娃",
+    "englishName": "Smoochum",
+    "type": [
+      "冰",
+      "超能力"
+    ],
+    "category": "亲吻宝可梦",
+    "description": "迷唇娃是亲吻宝可梦，拥有冰、超能力属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 61,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/238.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 239,
+    "name": "电击怪",
+    "englishName": "Elekid",
+    "type": [
+      "电"
+    ],
+    "category": "电气宝可梦",
+    "description": "电击怪是电气宝可梦，拥有电属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 72,
+    "researchValue": 45,
+    "sprite": "assets/pokemon/sprites/239.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 240,
+    "name": "鸭嘴宝宝",
+    "englishName": "Magby",
+    "type": [
+      "火"
+    ],
+    "category": "火种宝可梦",
+    "description": "鸭嘴宝宝是火种宝可梦，拥有火属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 73,
+    "researchValue": 46,
+    "sprite": "assets/pokemon/sprites/240.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 241,
+    "name": "大奶罐",
+    "englishName": "Miltank",
+    "type": [
+      "一般"
+    ],
+    "category": "奶牛宝可梦",
+    "description": "大奶罐是奶牛宝可梦，拥有一般属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/241.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 242,
+    "name": "幸福蛋",
+    "englishName": "Blissey",
+    "type": [
+      "一般"
+    ],
+    "category": "幸福宝可梦",
+    "description": "幸福蛋是幸福宝可梦，拥有一般属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 108,
+    "researchValue": 68,
+    "sprite": "assets/pokemon/sprites/242.png",
+    "rarity": "rare",
+    "habitat": "水边"
+  },
+  {
+    "id": 243,
+    "name": "雷公",
+    "englishName": "Raikou",
+    "type": [
+      "电"
+    ],
+    "category": "天雷宝可梦",
+    "description": "雷公是天雷宝可梦，拥有电属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 116,
+    "researchValue": 73,
+    "sprite": "assets/pokemon/sprites/243.png",
+    "rarity": "legendary",
+    "habitat": "草地"
+  },
+  {
+    "id": 244,
+    "name": "炎帝",
+    "englishName": "Entei",
+    "type": [
+      "火"
+    ],
+    "category": "火山宝可梦",
+    "description": "炎帝是火山宝可梦，拥有火属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 116,
+    "researchValue": 73,
+    "sprite": "assets/pokemon/sprites/244.png",
+    "rarity": "legendary",
+    "habitat": "草地"
+  },
+  {
+    "id": 245,
+    "name": "水君",
+    "englishName": "Suicune",
+    "type": [
+      "水"
+    ],
+    "category": "极光宝可梦",
+    "description": "水君是极光宝可梦，拥有水属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 116,
+    "researchValue": 73,
+    "sprite": "assets/pokemon/sprites/245.png",
+    "rarity": "legendary",
+    "habitat": "草地"
+  },
+  {
+    "id": 246,
+    "name": "幼基拉斯",
+    "englishName": "Larvitar",
+    "type": [
+      "岩石",
+      "地面"
+    ],
+    "category": "岩石肤宝可梦",
+    "description": "幼基拉斯是岩石肤宝可梦，拥有岩石、地面属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/246.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 247,
+    "name": "沙基拉斯",
+    "englishName": "Pupitar",
+    "type": [
+      "岩石",
+      "地面"
+    ],
+    "category": "子弹宝可梦",
+    "description": "沙基拉斯是子弹宝可梦，拥有岩石、地面属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 82,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/247.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 248,
+    "name": "班基拉斯",
+    "englishName": "Tyranitar",
+    "type": [
+      "岩石",
+      "恶"
+    ],
+    "category": "铠甲宝可梦",
+    "description": "班基拉斯是铠甲宝可梦，拥有岩石、恶属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 120,
+    "researchValue": 75,
+    "sprite": "assets/pokemon/sprites/248.png",
+    "rarity": "rare",
+    "habitat": "山地"
+  },
+  {
+    "id": 249,
+    "name": "洛奇亚",
+    "englishName": "Lugia",
+    "type": [
+      "超能力",
+      "飞行"
+    ],
+    "category": "潜水宝可梦",
+    "description": "洛奇亚是潜水宝可梦，拥有超能力、飞行属性。图鉴栖息地记录为稀有区域，可在外围调查中寻找。",
+    "rocketValue": 136,
+    "researchValue": 85,
+    "sprite": "assets/pokemon/sprites/249.png",
+    "rarity": "legendary",
+    "habitat": "稀有区域"
+  },
+  {
+    "id": 250,
+    "name": "凤王",
+    "englishName": "Ho-Oh",
+    "type": [
+      "火",
+      "飞行"
+    ],
+    "category": "虹色宝可梦",
+    "description": "凤王是虹色宝可梦，拥有火、飞行属性。图鉴栖息地记录为稀有区域，可在外围调查中寻找。",
+    "rocketValue": 136,
+    "researchValue": 85,
+    "sprite": "assets/pokemon/sprites/250.png",
+    "rarity": "legendary",
+    "habitat": "稀有区域"
+  },
+  {
+    "id": 251,
+    "name": "时拉比",
+    "englishName": "Celebi",
+    "type": [
+      "超能力",
+      "草"
+    ],
+    "category": "时空穿越宝可梦",
+    "description": "时拉比是时空穿越宝可梦，拥有超能力、草属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 120,
+    "researchValue": 75,
+    "sprite": "assets/pokemon/sprites/251.png",
+    "rarity": "legendary",
+    "habitat": "森林"
+  },
+  {
+    "id": 252,
+    "name": "木守宫",
+    "englishName": "Treecko",
+    "type": [
+      "草"
+    ],
+    "category": "林蜥宝可梦",
+    "description": "木守宫是林蜥宝可梦，拥有草属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 62,
+    "researchValue": 39,
+    "sprite": "assets/pokemon/sprites/252.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 253,
+    "name": "森林蜥蜴",
+    "englishName": "Grovyle",
+    "type": [
+      "草"
+    ],
+    "category": "林蜥宝可梦",
+    "description": "森林蜥蜴是林蜥宝可梦，拥有草属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/253.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 254,
+    "name": "蜥蜴王",
+    "englishName": "Sceptile",
+    "type": [
+      "草"
+    ],
+    "category": "密林宝可梦",
+    "description": "蜥蜴王是密林宝可梦，拥有草属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 106,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/254.png",
+    "rarity": "rare",
+    "habitat": "森林"
+  },
+  {
+    "id": 255,
+    "name": "火稚鸡",
+    "englishName": "Torchic",
+    "type": [
+      "火"
+    ],
+    "category": "雏鸡宝可梦",
+    "description": "火稚鸡是雏鸡宝可梦，拥有火属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 62,
+    "researchValue": 39,
+    "sprite": "assets/pokemon/sprites/255.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 256,
+    "name": "力壮鸡",
+    "englishName": "Combusken",
+    "type": [
+      "火",
+      "格斗"
+    ],
+    "category": "幼鸡宝可梦",
+    "description": "力壮鸡是幼鸡宝可梦，拥有火、格斗属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/256.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 257,
+    "name": "火焰鸡",
+    "englishName": "Blaziken",
+    "type": [
+      "火",
+      "格斗"
+    ],
+    "category": "猛火宝可梦",
+    "description": "火焰鸡是猛火宝可梦，拥有火、格斗属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 106,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/257.png",
+    "rarity": "rare",
+    "habitat": "草地"
+  },
+  {
+    "id": 258,
+    "name": "水跃鱼",
+    "englishName": "Mudkip",
+    "type": [
+      "水"
+    ],
+    "category": "沼鱼宝可梦",
+    "description": "水跃鱼是沼鱼宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 62,
+    "researchValue": 39,
+    "sprite": "assets/pokemon/sprites/258.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 259,
+    "name": "沼跃鱼",
+    "englishName": "Marshtomp",
+    "type": [
+      "水",
+      "地面"
+    ],
+    "category": "沼鱼宝可梦",
+    "description": "沼跃鱼是沼鱼宝可梦，拥有水、地面属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/259.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 260,
+    "name": "巨沼怪",
+    "englishName": "Swampert",
+    "type": [
+      "水",
+      "地面"
+    ],
+    "category": "沼鱼宝可梦",
+    "description": "巨沼怪是沼鱼宝可梦，拥有水、地面属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 107,
+    "researchValue": 67,
+    "sprite": "assets/pokemon/sprites/260.png",
+    "rarity": "rare",
+    "habitat": "城市"
+  },
+  {
+    "id": 261,
+    "name": "土狼犬",
+    "englishName": "Poochyena",
+    "type": [
+      "恶"
+    ],
+    "category": "紧咬宝可梦",
+    "description": "土狼犬是紧咬宝可梦，拥有恶属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 44,
+    "researchValue": 28,
+    "sprite": "assets/pokemon/sprites/261.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 262,
+    "name": "大狼犬",
+    "englishName": "Mightyena",
+    "type": [
+      "恶"
+    ],
+    "category": "紧咬宝可梦",
+    "description": "大狼犬是紧咬宝可梦，拥有恶属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 84,
+    "researchValue": 53,
+    "sprite": "assets/pokemon/sprites/262.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 263,
+    "name": "蛇纹熊",
+    "englishName": "Zigzagoon",
+    "type": [
+      "一般"
+    ],
+    "category": "豆狸宝可梦",
+    "description": "蛇纹熊是豆狸宝可梦，拥有一般属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 48,
+    "researchValue": 30,
+    "sprite": "assets/pokemon/sprites/263.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 264,
+    "name": "直冲熊",
+    "englishName": "Linoone",
+    "type": [
+      "一般"
+    ],
+    "category": "猛冲宝可梦",
+    "description": "直冲熊是猛冲宝可梦，拥有一般属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 84,
+    "researchValue": 53,
+    "sprite": "assets/pokemon/sprites/264.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 265,
+    "name": "刺尾虫",
+    "englishName": "Wurmple",
+    "type": [
+      "虫"
+    ],
+    "category": "虫宝宝宝可梦",
+    "description": "刺尾虫是虫宝宝宝可梦，拥有虫属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 39,
+    "researchValue": 24,
+    "sprite": "assets/pokemon/sprites/265.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 266,
+    "name": "甲壳茧",
+    "englishName": "Silcoon",
+    "type": [
+      "虫"
+    ],
+    "category": "蛹宝可梦",
+    "description": "甲壳茧是蛹宝可梦，拥有虫属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 41,
+    "researchValue": 26,
+    "sprite": "assets/pokemon/sprites/266.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 267,
+    "name": "狩猎凤蝶",
+    "englishName": "Beautifly",
+    "type": [
+      "虫",
+      "飞行"
+    ],
+    "category": "蝴蝶宝可梦",
+    "description": "狩猎凤蝶是蝴蝶宝可梦，拥有虫、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 79,
+    "researchValue": 49,
+    "sprite": "assets/pokemon/sprites/267.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 268,
+    "name": "盾甲茧",
+    "englishName": "Cascoon",
+    "type": [
+      "虫"
+    ],
+    "category": "蛹宝可梦",
+    "description": "盾甲茧是蛹宝可梦，拥有虫属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 41,
+    "researchValue": 26,
+    "sprite": "assets/pokemon/sprites/268.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 269,
+    "name": "毒粉蛾",
+    "englishName": "Dustox",
+    "type": [
+      "虫",
+      "毒"
+    ],
+    "category": "毒蛾宝可梦",
+    "description": "毒粉蛾是毒蛾宝可梦，拥有虫、毒属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 77,
+    "researchValue": 48,
+    "sprite": "assets/pokemon/sprites/269.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 270,
+    "name": "莲叶童子",
+    "englishName": "Lotad",
+    "type": [
+      "水",
+      "草"
+    ],
+    "category": "浮萍宝可梦",
+    "description": "莲叶童子是浮萍宝可梦，拥有水、草属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 44,
+    "researchValue": 28,
+    "sprite": "assets/pokemon/sprites/270.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 271,
+    "name": "莲帽小童",
+    "englishName": "Lombre",
+    "type": [
+      "水",
+      "草"
+    ],
+    "category": "爽朗宝可梦",
+    "description": "莲帽小童是爽朗宝可梦，拥有水、草属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 68,
+    "researchValue": 43,
+    "sprite": "assets/pokemon/sprites/271.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 272,
+    "name": "乐天河童",
+    "englishName": "Ludicolo",
+    "type": [
+      "水",
+      "草"
+    ],
+    "category": "乐天宝可梦",
+    "description": "乐天河童是乐天宝可梦，拥有水、草属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 96,
+    "researchValue": 60,
+    "sprite": "assets/pokemon/sprites/272.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 273,
+    "name": "橡实果",
+    "englishName": "Seedot",
+    "type": [
+      "草"
+    ],
+    "category": "橡实宝可梦",
+    "description": "橡实果是橡实宝可梦，拥有草属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 44,
+    "researchValue": 28,
+    "sprite": "assets/pokemon/sprites/273.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 274,
+    "name": "长鼻叶",
+    "englishName": "Nuzleaf",
+    "type": [
+      "草",
+      "恶"
+    ],
+    "category": "捉弄宝可梦",
+    "description": "长鼻叶是捉弄宝可梦，拥有草、恶属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 68,
+    "researchValue": 43,
+    "sprite": "assets/pokemon/sprites/274.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 275,
+    "name": "狡猾天狗",
+    "englishName": "Shiftry",
+    "type": [
+      "草",
+      "恶"
+    ],
+    "category": "邪恶宝可梦",
+    "description": "狡猾天狗是邪恶宝可梦，拥有草、恶属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 96,
+    "researchValue": 60,
+    "sprite": "assets/pokemon/sprites/275.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 276,
+    "name": "傲骨燕",
+    "englishName": "Taillow",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "幼燕宝可梦",
+    "description": "傲骨燕是幼燕宝可梦，拥有一般、飞行属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 54,
+    "researchValue": 34,
+    "sprite": "assets/pokemon/sprites/276.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 277,
+    "name": "大王燕",
+    "englishName": "Swellow",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "燕子宝可梦",
+    "description": "大王燕是燕子宝可梦，拥有一般、飞行属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/277.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 278,
+    "name": "长翅鸥",
+    "englishName": "Wingull",
+    "type": [
+      "水",
+      "飞行"
+    ],
+    "category": "海鸥宝可梦",
+    "description": "长翅鸥是海鸥宝可梦，拥有水、飞行属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 54,
+    "researchValue": 34,
+    "sprite": "assets/pokemon/sprites/278.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 279,
+    "name": "大嘴鸥",
+    "englishName": "Pelipper",
+    "type": [
+      "水",
+      "飞行"
+    ],
+    "category": "水鸟宝可梦",
+    "description": "大嘴鸥是水鸟宝可梦，拥有水、飞行属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 88,
+    "researchValue": 55,
+    "sprite": "assets/pokemon/sprites/279.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 280,
+    "name": "拉鲁拉丝",
+    "englishName": "Ralts",
+    "type": [
+      "超能力",
+      "妖精"
+    ],
+    "category": "心情宝可梦",
+    "description": "拉鲁拉丝是心情宝可梦，拥有超能力、妖精属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 40,
+    "researchValue": 25,
+    "sprite": "assets/pokemon/sprites/280.png",
+    "rarity": "common",
+    "habitat": "水边"
+  },
+  {
+    "id": 281,
+    "name": "奇鲁莉安",
+    "englishName": "Kirlia",
+    "type": [
+      "超能力",
+      "妖精"
+    ],
+    "category": "感情宝可梦",
+    "description": "奇鲁莉安是感情宝可梦，拥有超能力、妖精属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 56,
+    "researchValue": 35,
+    "sprite": "assets/pokemon/sprites/281.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 282,
+    "name": "沙奈朵",
+    "englishName": "Gardevoir",
+    "type": [
+      "超能力",
+      "妖精"
+    ],
+    "category": "包容宝可梦",
+    "description": "沙奈朵是包容宝可梦，拥有超能力、妖精属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 104,
+    "researchValue": 65,
+    "sprite": "assets/pokemon/sprites/282.png",
+    "rarity": "rare",
+    "habitat": "水边"
+  },
+  {
+    "id": 283,
+    "name": "溜溜糖球",
+    "englishName": "Surskit",
+    "type": [
+      "虫",
+      "水"
+    ],
+    "category": "水黾宝可梦",
+    "description": "溜溜糖球是水黾宝可梦，拥有虫、水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 54,
+    "researchValue": 34,
+    "sprite": "assets/pokemon/sprites/283.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 284,
+    "name": "雨翅蛾",
+    "englishName": "Masquerain",
+    "type": [
+      "虫",
+      "飞行"
+    ],
+    "category": "眼珠宝可梦",
+    "description": "雨翅蛾是眼珠宝可梦，拥有虫、飞行属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/284.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 285,
+    "name": "蘑蘑菇",
+    "englishName": "Shroomish",
+    "type": [
+      "草"
+    ],
+    "category": "蘑菇宝可梦",
+    "description": "蘑蘑菇是蘑菇宝可梦，拥有草属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 59,
+    "researchValue": 37,
+    "sprite": "assets/pokemon/sprites/285.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 286,
+    "name": "斗笠菇",
+    "englishName": "Breloom",
+    "type": [
+      "草",
+      "格斗"
+    ],
+    "category": "蘑菇宝可梦",
+    "description": "斗笠菇是蘑菇宝可梦，拥有草、格斗属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 92,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/286.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 287,
+    "name": "懒人獭",
+    "englishName": "Slakoth",
+    "type": [
+      "一般"
+    ],
+    "category": "懒人宝可梦",
+    "description": "懒人獭是懒人宝可梦，拥有一般属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 56,
+    "researchValue": 35,
+    "sprite": "assets/pokemon/sprites/287.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 288,
+    "name": "过动猿",
+    "englishName": "Vigoroth",
+    "type": [
+      "一般"
+    ],
+    "category": "暴猿宝可梦",
+    "description": "过动猿是暴猿宝可梦，拥有一般属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 88,
+    "researchValue": 55,
+    "sprite": "assets/pokemon/sprites/288.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 289,
+    "name": "请假王",
+    "englishName": "Slaking",
+    "type": [
+      "一般"
+    ],
+    "category": "怕麻烦宝可梦",
+    "description": "请假王是怕麻烦宝可梦，拥有一般属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 134,
+    "researchValue": 84,
+    "sprite": "assets/pokemon/sprites/289.png",
+    "rarity": "rare",
+    "habitat": "森林"
+  },
+  {
+    "id": 290,
+    "name": "土居忍士",
+    "englishName": "Nincada",
+    "type": [
+      "虫",
+      "地面"
+    ],
+    "category": "入门宝可梦",
+    "description": "土居忍士是入门宝可梦，拥有虫、地面属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 53,
+    "researchValue": 33,
+    "sprite": "assets/pokemon/sprites/290.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 291,
+    "name": "铁面忍者",
+    "englishName": "Ninjask",
+    "type": [
+      "虫",
+      "飞行"
+    ],
+    "category": "忍者宝可梦",
+    "description": "铁面忍者是忍者宝可梦，拥有虫、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/291.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 292,
+    "name": "脱壳忍者",
+    "englishName": "Shedinja",
+    "type": [
+      "虫",
+      "幽灵"
+    ],
+    "category": "空壳宝可梦",
+    "description": "脱壳忍者是空壳宝可梦，拥有虫、幽灵属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 47,
+    "researchValue": 30,
+    "sprite": "assets/pokemon/sprites/292.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 293,
+    "name": "咕妞妞",
+    "englishName": "Whismur",
+    "type": [
+      "一般"
+    ],
+    "category": "细语宝可梦",
+    "description": "咕妞妞是细语宝可梦，拥有一般属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 48,
+    "researchValue": 30,
+    "sprite": "assets/pokemon/sprites/293.png",
+    "rarity": "common",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 294,
+    "name": "吼爆弹",
+    "englishName": "Loudred",
+    "type": [
+      "一般"
+    ],
+    "category": "大声宝可梦",
+    "description": "吼爆弹是大声宝可梦，拥有一般属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 72,
+    "researchValue": 45,
+    "sprite": "assets/pokemon/sprites/294.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 295,
+    "name": "爆音怪",
+    "englishName": "Exploud",
+    "type": [
+      "一般"
+    ],
+    "category": "噪音宝可梦",
+    "description": "爆音怪是噪音宝可梦，拥有一般属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/295.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 296,
+    "name": "幕下力士",
+    "englishName": "Makuhita",
+    "type": [
+      "格斗"
+    ],
+    "category": "毅力宝可梦",
+    "description": "幕下力士是毅力宝可梦，拥有格斗属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 47,
+    "researchValue": 30,
+    "sprite": "assets/pokemon/sprites/296.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 297,
+    "name": "铁掌力士",
+    "englishName": "Hariyama",
+    "type": [
+      "格斗"
+    ],
+    "category": "猛推宝可梦",
+    "description": "铁掌力士是猛推宝可梦，拥有格斗属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 95,
+    "researchValue": 59,
+    "sprite": "assets/pokemon/sprites/297.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 298,
+    "name": "露力丽",
+    "englishName": "Azurill",
+    "type": [
+      "一般",
+      "妖精"
+    ],
+    "category": "水珠宝可梦",
+    "description": "露力丽是水珠宝可梦，拥有一般、妖精属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 38,
+    "researchValue": 24,
+    "sprite": "assets/pokemon/sprites/298.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 299,
+    "name": "朝北鼻",
+    "englishName": "Nosepass",
+    "type": [
+      "岩石"
+    ],
+    "category": "罗盘宝可梦",
+    "description": "朝北鼻是罗盘宝可梦，拥有岩石属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 75,
+    "researchValue": 47,
+    "sprite": "assets/pokemon/sprites/299.png",
+    "rarity": "common",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 300,
+    "name": "向尾喵",
+    "englishName": "Skitty",
+    "type": [
+      "一般"
+    ],
+    "category": "小猫宝可梦",
+    "description": "向尾喵是小猫宝可梦，拥有一般属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 52,
+    "researchValue": 33,
+    "sprite": "assets/pokemon/sprites/300.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 301,
+    "name": "优雅猫",
+    "englishName": "Delcatty",
+    "type": [
+      "一般"
+    ],
+    "category": "清高宝可梦",
+    "description": "优雅猫是清高宝可梦，拥有一般属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 80,
+    "researchValue": 50,
+    "sprite": "assets/pokemon/sprites/301.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 302,
+    "name": "勾魂眼",
+    "englishName": "Sableye",
+    "type": [
+      "恶",
+      "幽灵"
+    ],
+    "category": "黑暗宝可梦",
+    "description": "勾魂眼是黑暗宝可梦，拥有恶、幽灵属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 76,
+    "researchValue": 48,
+    "sprite": "assets/pokemon/sprites/302.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 303,
+    "name": "大嘴娃",
+    "englishName": "Mawile",
+    "type": [
+      "钢",
+      "妖精"
+    ],
+    "category": "欺骗宝可梦",
+    "description": "大嘴娃是欺骗宝可梦，拥有钢、妖精属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 76,
+    "researchValue": 48,
+    "sprite": "assets/pokemon/sprites/303.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 304,
+    "name": "可可多拉",
+    "englishName": "Aron",
+    "type": [
+      "钢",
+      "岩石"
+    ],
+    "category": "铁铠宝可梦",
+    "description": "可可多拉是铁铠宝可梦，拥有钢、岩石属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 66,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/304.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 305,
+    "name": "可多拉",
+    "englishName": "Lairon",
+    "type": [
+      "钢",
+      "岩石"
+    ],
+    "category": "铁铠宝可梦",
+    "description": "可多拉是铁铠宝可梦，拥有钢、岩石属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 86,
+    "researchValue": 54,
+    "sprite": "assets/pokemon/sprites/305.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 306,
+    "name": "波士可多拉",
+    "englishName": "Aggron",
+    "type": [
+      "钢",
+      "岩石"
+    ],
+    "category": "铁铠宝可梦",
+    "description": "波士可多拉是铁铠宝可梦，拥有钢、岩石属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 106,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/306.png",
+    "rarity": "rare",
+    "habitat": "山地"
+  },
+  {
+    "id": 307,
+    "name": "玛沙那",
+    "englishName": "Meditite",
+    "type": [
+      "格斗",
+      "超能力"
+    ],
+    "category": "冥想宝可梦",
+    "description": "玛沙那是冥想宝可梦，拥有格斗、超能力属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 56,
+    "researchValue": 35,
+    "sprite": "assets/pokemon/sprites/307.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 308,
+    "name": "恰雷姆",
+    "englishName": "Medicham",
+    "type": [
+      "格斗",
+      "超能力"
+    ],
+    "category": "冥想宝可梦",
+    "description": "恰雷姆是冥想宝可梦，拥有格斗、超能力属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 82,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/308.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 309,
+    "name": "落雷兽",
+    "englishName": "Electrike",
+    "type": [
+      "电"
+    ],
+    "category": "闪电宝可梦",
+    "description": "落雷兽是闪电宝可梦，拥有电属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 59,
+    "researchValue": 37,
+    "sprite": "assets/pokemon/sprites/309.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 310,
+    "name": "雷电兽",
+    "englishName": "Manectric",
+    "type": [
+      "电"
+    ],
+    "category": "放电宝可梦",
+    "description": "雷电兽是放电宝可梦，拥有电属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 95,
+    "researchValue": 59,
+    "sprite": "assets/pokemon/sprites/310.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 311,
+    "name": "正电拍拍",
+    "englishName": "Plusle",
+    "type": [
+      "电"
+    ],
+    "category": "加油宝可梦",
+    "description": "正电拍拍是加油宝可梦，拥有电属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/311.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 312,
+    "name": "負电拍拍",
+    "englishName": "Minun",
+    "type": [
+      "电"
+    ],
+    "category": "加油宝可梦",
+    "description": "負电拍拍是加油宝可梦，拥有电属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 81,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/312.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 313,
+    "name": "电萤虫",
+    "englishName": "Volbeat",
+    "type": [
+      "虫"
+    ],
+    "category": "萤火虫宝可梦",
+    "description": "电萤虫是萤火虫宝可梦，拥有虫属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 86,
+    "researchValue": 54,
+    "sprite": "assets/pokemon/sprites/313.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 314,
+    "name": "甜甜萤",
+    "englishName": "Illumise",
+    "type": [
+      "虫"
+    ],
+    "category": "萤火虫宝可梦",
+    "description": "甜甜萤是萤火虫宝可梦，拥有虫属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 86,
+    "researchValue": 54,
+    "sprite": "assets/pokemon/sprites/314.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 315,
+    "name": "毒蔷薇",
+    "englishName": "Roselia",
+    "type": [
+      "草",
+      "毒"
+    ],
+    "category": "荆棘宝可梦",
+    "description": "毒蔷薇是荆棘宝可梦，拥有草、毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 80,
+    "researchValue": 50,
+    "sprite": "assets/pokemon/sprites/315.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 316,
+    "name": "溶食兽",
+    "englishName": "Gulpin",
+    "type": [
+      "毒"
+    ],
+    "category": "胃袋宝可梦",
+    "description": "溶食兽是胃袋宝可梦，拥有毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/316.png",
+    "rarity": "common",
+    "habitat": "草地"
+  },
+  {
+    "id": 317,
+    "name": "吞食兽",
+    "englishName": "Swalot",
+    "type": [
+      "毒"
+    ],
+    "category": "毒袋宝可梦",
+    "description": "吞食兽是毒袋宝可梦，拥有毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 93,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/317.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 318,
+    "name": "利牙鱼",
+    "englishName": "Carvanha",
+    "type": [
+      "水",
+      "恶"
+    ],
+    "category": "凶猛宝可梦",
+    "description": "利牙鱼是凶猛宝可梦，拥有水、恶属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 61,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/318.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 319,
+    "name": "巨牙鲨",
+    "englishName": "Sharpedo",
+    "type": [
+      "水",
+      "恶"
+    ],
+    "category": "凶暴宝可梦",
+    "description": "巨牙鲨是凶暴宝可梦，拥有水、恶属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 92,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/319.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 320,
+    "name": "吼吼鲸",
+    "englishName": "Wailmer",
+    "type": [
+      "水"
+    ],
+    "category": "球鲸宝可梦",
+    "description": "吼吼鲸是球鲸宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 80,
+    "researchValue": 50,
+    "sprite": "assets/pokemon/sprites/320.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 321,
+    "name": "吼鲸王",
+    "englishName": "Wailord",
+    "type": [
+      "水"
+    ],
+    "category": "浮鲸宝可梦",
+    "description": "吼鲸王是浮鲸宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/321.png",
+    "rarity": "rare",
+    "habitat": "海洋"
+  },
+  {
+    "id": 322,
+    "name": "呆火驼",
+    "englishName": "Numel",
+    "type": [
+      "火",
+      "地面"
+    ],
+    "category": "迟钝宝可梦",
+    "description": "呆火驼是迟钝宝可梦，拥有火、地面属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 61,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/322.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 323,
+    "name": "喷火驼",
+    "englishName": "Camerupt",
+    "type": [
+      "火",
+      "地面"
+    ],
+    "category": "喷火宝可梦",
+    "description": "喷火驼是喷火宝可梦，拥有火、地面属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 92,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/323.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 324,
+    "name": "煤炭龟",
+    "englishName": "Torkoal",
+    "type": [
+      "火"
+    ],
+    "category": "煤炭宝可梦",
+    "description": "煤炭龟是煤炭宝可梦，拥有火属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 94,
+    "researchValue": 59,
+    "sprite": "assets/pokemon/sprites/324.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 325,
+    "name": "跳跳猪",
+    "englishName": "Spoink",
+    "type": [
+      "超能力"
+    ],
+    "category": "弹跳宝可梦",
+    "description": "跳跳猪是弹跳宝可梦，拥有超能力属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 66,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/325.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 326,
+    "name": "噗噗猪",
+    "englishName": "Grumpig",
+    "type": [
+      "超能力"
+    ],
+    "category": "操纵宝可梦",
+    "description": "噗噗猪是操纵宝可梦，拥有超能力属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 94,
+    "researchValue": 59,
+    "sprite": "assets/pokemon/sprites/326.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 327,
+    "name": "晃晃斑",
+    "englishName": "Spinda",
+    "type": [
+      "一般"
+    ],
+    "category": "斑点熊猫宝可梦",
+    "description": "晃晃斑是斑点熊猫宝可梦，拥有一般属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 72,
+    "researchValue": 45,
+    "sprite": "assets/pokemon/sprites/327.png",
+    "rarity": "common",
+    "habitat": "山地"
+  },
+  {
+    "id": 328,
+    "name": "大颚蚁",
+    "englishName": "Trapinch",
+    "type": [
+      "地面"
+    ],
+    "category": "蚁狮宝可梦",
+    "description": "大颚蚁是蚁狮宝可梦，拥有地面属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 58,
+    "researchValue": 36,
+    "sprite": "assets/pokemon/sprites/328.png",
+    "rarity": "common",
+    "habitat": "荒野"
+  },
+  {
+    "id": 329,
+    "name": "超音波幼虫",
+    "englishName": "Vibrava",
+    "type": [
+      "地面",
+      "龙"
+    ],
+    "category": "振动宝可梦",
+    "description": "超音波幼虫是振动宝可梦，拥有地面、龙属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 68,
+    "researchValue": 43,
+    "sprite": "assets/pokemon/sprites/329.png",
+    "rarity": "uncommon",
+    "habitat": "荒野"
+  },
+  {
+    "id": 330,
+    "name": "沙漠蜻蜓",
+    "englishName": "Flygon",
+    "type": [
+      "地面",
+      "龙"
+    ],
+    "category": "神秘宝可梦",
+    "description": "沙漠蜻蜓是神秘宝可梦，拥有地面、龙属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 104,
+    "researchValue": 65,
+    "sprite": "assets/pokemon/sprites/330.png",
+    "rarity": "rare",
+    "habitat": "荒野"
+  },
+  {
+    "id": 331,
+    "name": "刺球仙人掌",
+    "englishName": "Cacnea",
+    "type": [
+      "草"
+    ],
+    "category": "仙人掌宝可梦",
+    "description": "刺球仙人掌是仙人掌宝可梦，拥有草属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 67,
+    "researchValue": 42,
+    "sprite": "assets/pokemon/sprites/331.png",
+    "rarity": "common",
+    "habitat": "荒野"
+  },
+  {
+    "id": 332,
+    "name": "梦歌仙人掌",
+    "englishName": "Cacturne",
+    "type": [
+      "草",
+      "恶"
+    ],
+    "category": "稻草人宝可梦",
+    "description": "梦歌仙人掌是稻草人宝可梦，拥有草、恶属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 95,
+    "researchValue": 59,
+    "sprite": "assets/pokemon/sprites/332.png",
+    "rarity": "uncommon",
+    "habitat": "荒野"
+  },
+  {
+    "id": 333,
+    "name": "青绵鸟",
+    "englishName": "Swablu",
+    "type": [
+      "一般",
+      "飞行"
+    ],
+    "category": "绵鸟宝可梦",
+    "description": "青绵鸟是绵鸟宝可梦，拥有一般、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 62,
+    "researchValue": 39,
+    "sprite": "assets/pokemon/sprites/333.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 334,
+    "name": "七夕青鸟",
+    "englishName": "Altaria",
+    "type": [
+      "龙",
+      "飞行"
+    ],
+    "category": "哼唱宝可梦",
+    "description": "七夕青鸟是哼唱宝可梦，拥有龙、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 98,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/334.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 335,
+    "name": "猫鼬斩",
+    "englishName": "Zangoose",
+    "type": [
+      "一般"
+    ],
+    "category": "猫鼬宝可梦",
+    "description": "猫鼬斩是猫鼬宝可梦，拥有一般属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 92,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/335.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 336,
+    "name": "饭匙蛇",
+    "englishName": "Seviper",
+    "type": [
+      "毒"
+    ],
+    "category": "牙蛇宝可梦",
+    "description": "饭匙蛇是牙蛇宝可梦，拥有毒属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 92,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/336.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 337,
+    "name": "月石",
+    "englishName": "Lunatone",
+    "type": [
+      "岩石",
+      "超能力"
+    ],
+    "category": "陨石宝可梦",
+    "description": "月石是陨石宝可梦，拥有岩石、超能力属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 92,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/337.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 338,
+    "name": "太阳岩",
+    "englishName": "Solrock",
+    "type": [
+      "岩石",
+      "超能力"
+    ],
+    "category": "陨石宝可梦",
+    "description": "太阳岩是陨石宝可梦，拥有岩石、超能力属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 92,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/338.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 339,
+    "name": "泥泥鳅",
+    "englishName": "Barboach",
+    "type": [
+      "水",
+      "地面"
+    ],
+    "category": "须鱼宝可梦",
+    "description": "泥泥鳅是须鱼宝可梦，拥有水、地面属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 58,
+    "researchValue": 36,
+    "sprite": "assets/pokemon/sprites/339.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 340,
+    "name": "鲶鱼王",
+    "englishName": "Whiscash",
+    "type": [
+      "水",
+      "地面"
+    ],
+    "category": "须鱼宝可梦",
+    "description": "鲶鱼王是须鱼宝可梦，拥有水、地面属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 94,
+    "researchValue": 59,
+    "sprite": "assets/pokemon/sprites/340.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 341,
+    "name": "龙虾小兵",
+    "englishName": "Corphish",
+    "type": [
+      "水"
+    ],
+    "category": "无赖宝可梦",
+    "description": "龙虾小兵是无赖宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 62,
+    "researchValue": 39,
+    "sprite": "assets/pokemon/sprites/341.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 342,
+    "name": "铁螯龙虾",
+    "englishName": "Crawdaunt",
+    "type": [
+      "水",
+      "恶"
+    ],
+    "category": "流氓宝可梦",
+    "description": "铁螯龙虾是流氓宝可梦，拥有水、恶属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 94,
+    "researchValue": 59,
+    "sprite": "assets/pokemon/sprites/342.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 343,
+    "name": "天秤偶",
+    "englishName": "Baltoy",
+    "type": [
+      "地面",
+      "超能力"
+    ],
+    "category": "泥偶宝可梦",
+    "description": "天秤偶是泥偶宝可梦，拥有地面、超能力属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/343.png",
+    "rarity": "common",
+    "habitat": "荒野"
+  },
+  {
+    "id": 344,
+    "name": "念力土偶",
+    "englishName": "Claydol",
+    "type": [
+      "地面",
+      "超能力"
+    ],
+    "category": "泥偶宝可梦",
+    "description": "念力土偶是泥偶宝可梦，拥有地面、超能力属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 100,
+    "researchValue": 63,
+    "sprite": "assets/pokemon/sprites/344.png",
+    "rarity": "rare",
+    "habitat": "荒野"
+  },
+  {
+    "id": 345,
+    "name": "触手百合",
+    "englishName": "Lileep",
+    "type": [
+      "岩石",
+      "草"
+    ],
+    "category": "海百合宝可梦",
+    "description": "触手百合是海百合宝可梦，拥有岩石、草属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 71,
+    "researchValue": 44,
+    "sprite": "assets/pokemon/sprites/345.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 346,
+    "name": "摇篮百合",
+    "englishName": "Cradily",
+    "type": [
+      "岩石",
+      "草"
+    ],
+    "category": "藤壶宝可梦",
+    "description": "摇篮百合是藤壶宝可梦，拥有岩石、草属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 99,
+    "researchValue": 62,
+    "sprite": "assets/pokemon/sprites/346.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 347,
+    "name": "太古羽虫",
+    "englishName": "Anorith",
+    "type": [
+      "岩石",
+      "虫"
+    ],
+    "category": "古虾宝可梦",
+    "description": "太古羽虫是古虾宝可梦，拥有岩石、虫属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 71,
+    "researchValue": 44,
+    "sprite": "assets/pokemon/sprites/347.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 348,
+    "name": "太古盔甲",
+    "englishName": "Armaldo",
+    "type": [
+      "岩石",
+      "虫"
+    ],
+    "category": "甲胄宝可梦",
+    "description": "太古盔甲是甲胄宝可梦，拥有岩石、虫属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 99,
+    "researchValue": 62,
+    "sprite": "assets/pokemon/sprites/348.png",
+    "rarity": "uncommon",
+    "habitat": "城市"
+  },
+  {
+    "id": 349,
+    "name": "丑丑鱼",
+    "englishName": "Feebas",
+    "type": [
+      "水"
+    ],
+    "category": "鱼宝可梦",
+    "description": "丑丑鱼是鱼宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 40,
+    "researchValue": 25,
+    "sprite": "assets/pokemon/sprites/349.png",
+    "rarity": "common",
+    "habitat": "城市"
+  },
+  {
+    "id": 350,
+    "name": "美纳斯",
+    "englishName": "Milotic",
+    "type": [
+      "水"
+    ],
+    "category": "慈爱宝可梦",
+    "description": "美纳斯是慈爱宝可梦，拥有水属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 108,
+    "researchValue": 68,
+    "sprite": "assets/pokemon/sprites/350.png",
+    "rarity": "rare",
+    "habitat": "城市"
+  },
+  {
+    "id": 351,
+    "name": "飘浮泡泡",
+    "englishName": "Castform",
+    "type": [
+      "一般"
+    ],
+    "category": "天气宝可梦",
+    "description": "飘浮泡泡是天气宝可梦，拥有一般属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 84,
+    "researchValue": 53,
+    "sprite": "assets/pokemon/sprites/351.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 352,
+    "name": "变隐龙",
+    "englishName": "Kecleon",
+    "type": [
+      "一般"
+    ],
+    "category": "变色宝可梦",
+    "description": "变隐龙是变色宝可梦，拥有一般属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 88,
+    "researchValue": 55,
+    "sprite": "assets/pokemon/sprites/352.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 353,
+    "name": "怨影娃娃",
+    "englishName": "Shuppet",
+    "type": [
+      "幽灵"
+    ],
+    "category": "人偶宝可梦",
+    "description": "怨影娃娃是人偶宝可梦，拥有幽灵属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 59,
+    "researchValue": 37,
+    "sprite": "assets/pokemon/sprites/353.png",
+    "rarity": "common",
+    "habitat": "水边"
+  },
+  {
+    "id": 354,
+    "name": "诅咒娃娃",
+    "englishName": "Banette",
+    "type": [
+      "幽灵"
+    ],
+    "category": "布偶宝可梦",
+    "description": "诅咒娃娃是布偶宝可梦，拥有幽灵属性。图鉴栖息地记录为水边，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/354.png",
+    "rarity": "uncommon",
+    "habitat": "水边"
+  },
+  {
+    "id": 355,
+    "name": "夜巡灵",
+    "englishName": "Duskull",
+    "type": [
+      "幽灵"
+    ],
+    "category": "渡魂宝可梦",
+    "description": "夜巡灵是渡魂宝可梦，拥有幽灵属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 59,
+    "researchValue": 37,
+    "sprite": "assets/pokemon/sprites/355.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 356,
+    "name": "彷徨夜灵",
+    "englishName": "Dusclops",
+    "type": [
+      "幽灵"
+    ],
+    "category": "招手宝可梦",
+    "description": "彷徨夜灵是招手宝可梦，拥有幽灵属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/356.png",
+    "rarity": "uncommon",
+    "habitat": "森林"
+  },
+  {
+    "id": 357,
+    "name": "热带龙",
+    "englishName": "Tropius",
+    "type": [
+      "草",
+      "飞行"
+    ],
+    "category": "水果宝可梦",
+    "description": "热带龙是水果宝可梦，拥有草、飞行属性。图鉴栖息地记录为森林，可在外围调查中寻找。",
+    "rocketValue": 92,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/357.png",
+    "rarity": "common",
+    "habitat": "森林"
+  },
+  {
+    "id": 358,
+    "name": "风铃铃",
+    "englishName": "Chimecho",
+    "type": [
+      "超能力"
+    ],
+    "category": "风铃宝可梦",
+    "description": "风铃铃是风铃宝可梦，拥有超能力属性。图鉴栖息地记录为草地，可在外围调查中寻找。",
+    "rocketValue": 91,
+    "researchValue": 57,
+    "sprite": "assets/pokemon/sprites/358.png",
+    "rarity": "uncommon",
+    "habitat": "草地"
+  },
+  {
+    "id": 359,
+    "name": "阿勃梭鲁",
+    "englishName": "Absol",
+    "type": [
+      "恶"
+    ],
+    "category": "灾祸宝可梦",
+    "description": "阿勃梭鲁是灾祸宝可梦，拥有恶属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 93,
+    "researchValue": 58,
+    "sprite": "assets/pokemon/sprites/359.png",
+    "rarity": "uncommon",
+    "habitat": "山地"
+  },
+  {
+    "id": 360,
+    "name": "小果然",
+    "englishName": "Wynaut",
+    "type": [
+      "超能力"
+    ],
+    "category": "开朗宝可梦",
+    "description": "小果然是开朗宝可梦，拥有超能力属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 52,
+    "researchValue": 33,
+    "sprite": "assets/pokemon/sprites/360.png",
+    "rarity": "common",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 361,
+    "name": "雪童子",
+    "englishName": "Snorunt",
+    "type": [
+      "冰"
+    ],
+    "category": "雪笠宝可梦",
+    "description": "雪童子是雪笠宝可梦，拥有冰属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/361.png",
+    "rarity": "common",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 362,
+    "name": "冰鬼护",
+    "englishName": "Glalie",
+    "type": [
+      "冰"
+    ],
+    "category": "脸面宝可梦",
+    "description": "冰鬼护是脸面宝可梦，拥有冰属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 96,
+    "researchValue": 60,
+    "sprite": "assets/pokemon/sprites/362.png",
+    "rarity": "uncommon",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 363,
+    "name": "海豹球",
+    "englishName": "Spheal",
+    "type": [
+      "冰",
+      "水"
+    ],
+    "category": "拍手宝可梦",
+    "description": "海豹球是拍手宝可梦，拥有冰、水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 58,
+    "researchValue": 36,
+    "sprite": "assets/pokemon/sprites/363.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 364,
+    "name": "海魔狮",
+    "englishName": "Sealeo",
+    "type": [
+      "冰",
+      "水"
+    ],
+    "category": "滚球宝可梦",
+    "description": "海魔狮是滚球宝可梦，拥有冰、水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 82,
+    "researchValue": 51,
+    "sprite": "assets/pokemon/sprites/364.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 365,
+    "name": "帝牙海狮",
+    "englishName": "Walrein",
+    "type": [
+      "冰",
+      "水"
+    ],
+    "category": "破冰宝可梦",
+    "description": "帝牙海狮是破冰宝可梦，拥有冰、水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 106,
+    "researchValue": 66,
+    "sprite": "assets/pokemon/sprites/365.png",
+    "rarity": "rare",
+    "habitat": "海洋"
+  },
+  {
+    "id": 366,
+    "name": "珍珠贝",
+    "englishName": "Clamperl",
+    "type": [
+      "水"
+    ],
+    "category": "双壳贝宝可梦",
+    "description": "珍珠贝是双壳贝宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 69,
+    "researchValue": 43,
+    "sprite": "assets/pokemon/sprites/366.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 367,
+    "name": "猎斑鱼",
+    "englishName": "Huntail",
+    "type": [
+      "水"
+    ],
+    "category": "深海宝可梦",
+    "description": "猎斑鱼是深海宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 97,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/367.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 368,
+    "name": "樱花鱼",
+    "englishName": "Gorebyss",
+    "type": [
+      "水"
+    ],
+    "category": "南海宝可梦",
+    "description": "樱花鱼是南海宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 97,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/368.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 369,
+    "name": "古空棘鱼",
+    "englishName": "Relicanth",
+    "type": [
+      "水",
+      "岩石"
+    ],
+    "category": "长寿宝可梦",
+    "description": "古空棘鱼是长寿宝可梦，拥有水、岩石属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 97,
+    "researchValue": 61,
+    "sprite": "assets/pokemon/sprites/369.png",
+    "rarity": "uncommon",
+    "habitat": "海洋"
+  },
+  {
+    "id": 370,
+    "name": "爱心鱼",
+    "englishName": "Luvdisc",
+    "type": [
+      "水"
+    ],
+    "category": "相随宝可梦",
+    "description": "爱心鱼是相随宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 66,
+    "researchValue": 41,
+    "sprite": "assets/pokemon/sprites/370.png",
+    "rarity": "common",
+    "habitat": "海洋"
+  },
+  {
+    "id": 371,
+    "name": "宝贝龙",
+    "englishName": "Bagon",
+    "type": [
+      "龙"
+    ],
+    "category": "坚硬脑袋宝可梦",
+    "description": "宝贝龙是坚硬脑袋宝可梦，拥有龙属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/371.png",
+    "rarity": "uncommon",
+    "habitat": "荒野"
+  },
+  {
+    "id": 372,
+    "name": "甲壳龙",
+    "englishName": "Shelgon",
+    "type": [
+      "龙"
+    ],
+    "category": "耐力宝可梦",
+    "description": "甲壳龙是耐力宝可梦，拥有龙属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 84,
+    "researchValue": 53,
+    "sprite": "assets/pokemon/sprites/372.png",
+    "rarity": "uncommon",
+    "habitat": "荒野"
+  },
+  {
+    "id": 373,
+    "name": "暴飞龙",
+    "englishName": "Salamence",
+    "type": [
+      "龙",
+      "飞行"
+    ],
+    "category": "龙宝可梦",
+    "description": "暴飞龙是龙宝可梦，拥有龙、飞行属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 120,
+    "researchValue": 75,
+    "sprite": "assets/pokemon/sprites/373.png",
+    "rarity": "rare",
+    "habitat": "荒野"
+  },
+  {
+    "id": 374,
+    "name": "铁哑铃",
+    "englishName": "Beldum",
+    "type": [
+      "钢",
+      "超能力"
+    ],
+    "category": "铁球宝可梦",
+    "description": "铁哑铃是铁球宝可梦，拥有钢、超能力属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 60,
+    "researchValue": 38,
+    "sprite": "assets/pokemon/sprites/374.png",
+    "rarity": "uncommon",
+    "habitat": "荒野"
+  },
+  {
+    "id": 375,
+    "name": "金属怪",
+    "englishName": "Metang",
+    "type": [
+      "钢",
+      "超能力"
+    ],
+    "category": "铁爪宝可梦",
+    "description": "金属怪是铁爪宝可梦，拥有钢、超能力属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 84,
+    "researchValue": 53,
+    "sprite": "assets/pokemon/sprites/375.png",
+    "rarity": "uncommon",
+    "habitat": "荒野"
+  },
+  {
+    "id": 376,
+    "name": "巨金怪",
+    "englishName": "Metagross",
+    "type": [
+      "钢",
+      "超能力"
+    ],
+    "category": "铁足宝可梦",
+    "description": "巨金怪是铁足宝可梦，拥有钢、超能力属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 120,
+    "researchValue": 75,
+    "sprite": "assets/pokemon/sprites/376.png",
+    "rarity": "rare",
+    "habitat": "荒野"
+  },
+  {
+    "id": 377,
+    "name": "雷吉洛克",
+    "englishName": "Regirock",
+    "type": [
+      "岩石"
+    ],
+    "category": "岩山宝可梦",
+    "description": "雷吉洛克是岩山宝可梦，拥有岩石属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 116,
+    "researchValue": 73,
+    "sprite": "assets/pokemon/sprites/377.png",
+    "rarity": "legendary",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 378,
+    "name": "雷吉艾斯",
+    "englishName": "Regice",
+    "type": [
+      "冰"
+    ],
+    "category": "冰山宝可梦",
+    "description": "雷吉艾斯是冰山宝可梦，拥有冰属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 116,
+    "researchValue": 73,
+    "sprite": "assets/pokemon/sprites/378.png",
+    "rarity": "legendary",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 379,
+    "name": "雷吉斯奇鲁",
+    "englishName": "Registeel",
+    "type": [
+      "钢"
+    ],
+    "category": "黑金宝可梦",
+    "description": "雷吉斯奇鲁是黑金宝可梦，拥有钢属性。图鉴栖息地记录为洞穴，可在外围调查中寻找。",
+    "rocketValue": 116,
+    "researchValue": 73,
+    "sprite": "assets/pokemon/sprites/379.png",
+    "rarity": "legendary",
+    "habitat": "洞穴"
+  },
+  {
+    "id": 380,
+    "name": "拉帝亚斯",
+    "englishName": "Latias",
+    "type": [
+      "龙",
+      "超能力"
+    ],
+    "category": "无限宝可梦",
+    "description": "拉帝亚斯是无限宝可梦，拥有龙、超能力属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 120,
+    "researchValue": 75,
+    "sprite": "assets/pokemon/sprites/380.png",
+    "rarity": "legendary",
+    "habitat": "城市"
+  },
+  {
+    "id": 381,
+    "name": "拉帝欧斯",
+    "englishName": "Latios",
+    "type": [
+      "龙",
+      "超能力"
+    ],
+    "category": "无限宝可梦",
+    "description": "拉帝欧斯是无限宝可梦，拥有龙、超能力属性。图鉴栖息地记录为城市，可在外围调查中寻找。",
+    "rocketValue": 120,
+    "researchValue": 75,
+    "sprite": "assets/pokemon/sprites/381.png",
+    "rarity": "legendary",
+    "habitat": "城市"
+  },
+  {
+    "id": 382,
+    "name": "盖欧卡",
+    "englishName": "Kyogre",
+    "type": [
+      "水"
+    ],
+    "category": "海底宝可梦",
+    "description": "盖欧卡是海底宝可梦，拥有水属性。图鉴栖息地记录为海洋，可在外围调查中寻找。",
+    "rocketValue": 134,
+    "researchValue": 84,
+    "sprite": "assets/pokemon/sprites/382.png",
+    "rarity": "legendary",
+    "habitat": "海洋"
+  },
+  {
+    "id": 383,
+    "name": "固拉多",
+    "englishName": "Groudon",
+    "type": [
+      "地面"
+    ],
+    "category": "大陆宝可梦",
+    "description": "固拉多是大陆宝可梦，拥有地面属性。图鉴栖息地记录为荒野，可在外围调查中寻找。",
+    "rocketValue": 134,
+    "researchValue": 84,
+    "sprite": "assets/pokemon/sprites/383.png",
+    "rarity": "legendary",
+    "habitat": "荒野"
+  },
+  {
+    "id": 384,
+    "name": "烈空坐",
+    "englishName": "Rayquaza",
+    "type": [
+      "龙",
+      "飞行"
+    ],
+    "category": "天空宝可梦",
+    "description": "烈空坐是天空宝可梦，拥有龙、飞行属性。图鉴栖息地记录为稀有区域，可在外围调查中寻找。",
+    "rocketValue": 136,
+    "researchValue": 85,
+    "sprite": "assets/pokemon/sprites/384.png",
+    "rarity": "legendary",
+    "habitat": "稀有区域"
+  },
+  {
+    "id": 385,
+    "name": "基拉祈",
+    "englishName": "Jirachi",
+    "type": [
+      "钢",
+      "超能力"
+    ],
+    "category": "祈愿宝可梦",
+    "description": "基拉祈是祈愿宝可梦，拥有钢、超能力属性。图鉴栖息地记录为山地，可在外围调查中寻找。",
+    "rocketValue": 120,
+    "researchValue": 75,
+    "sprite": "assets/pokemon/sprites/385.png",
+    "rarity": "legendary",
+    "habitat": "山地"
+  },
+  {
+    "id": 386,
+    "name": "代欧奇希斯",
+    "englishName": "Deoxys",
+    "type": [
+      "超能力"
+    ],
+    "category": "ＤＮＡ宝可梦",
+    "description": "代欧奇希斯是ＤＮＡ宝可梦，拥有超能力属性。图鉴栖息地记录为稀有区域，可在外围调查中寻找。",
+    "rocketValue": 120,
+    "researchValue": 75,
+    "sprite": "assets/pokemon/sprites/386.png",
+    "rarity": "legendary",
+    "habitat": "稀有区域"
+  }
+]

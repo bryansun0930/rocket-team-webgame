@@ -1,0 +1,15 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {getGuidance} from '../src/systems/guidance.ts';
+const c=JSON.parse(fs.readFileSync(new URL('../src/data/campaign.json',import.meta.url),'utf8'));
+const fresh=()=>structuredClone(c.initial);
+const guide=(s,encounter=null)=>getGuidance(s,c.missions[s.chapter],encounter,{...c.rules,buildings:c.buildings});
+test('new player gets a concrete first investigation action',()=>{const g=guide(fresh());assert.equal(g.panel,'explore');assert.equal(g.label,'开始调查');assert.equal(g.ready,false);});
+test('completed objective points to claiming its chapter reward',()=>{const s=fresh();s.stats.surveys=1;const g=guide(s);assert.equal(g.panel,'missions');assert.equal(g.ready,true);});
+test('out of balls points to supply rather than an impossible capture',()=>{const s=fresh();s.chapter=1;s.balls=0;assert.equal(guide(s).label,'补充精灵球');s.money=0;assert.equal(guide(s).label,'领取物资委托');});
+test('existing encounter leads to capture',()=>{const s=fresh();s.chapter=1;assert.equal(guide(s,c.encounters[0]).label,'尝试捕获');});
+test('research routes to owned unstudied species, then new captures',()=>{const s=fresh();s.chapter=4;s.captures[41]=1;assert.equal(guide(s).panel,'collection');s.studied=[41];assert.equal(guide(s).panel,'explore');});
+test('unaffordable upgrade suggests resource recovery',()=>{const s=fresh();s.chapter=2;s.money=0;assert.equal(guide(s).panel,'market');s.money=1000;assert.equal(guide(s).panel,'base');});
+test('submission resource shortage cannot suggest claiming reward',()=>{const s=fresh();s.chapter=9;s.stats.captures=5;assert.equal(guide(s).panel,'market');assert.equal(guide(s).ready,false);});
+test('postgame guidance continues exploration',()=>{const s=fresh();s.chapter=10;s.ended=true;assert.equal(guide(s).panel,'explore');assert.match(guide(s).title,/首领/);});

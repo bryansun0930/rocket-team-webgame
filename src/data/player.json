@@ -1,0 +1,8 @@
+{
+  "texture": "player",
+  "url": "assets/characters/player/player_sheet.png",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "frameRate": 8,
+  "directions": { "down": 0, "left": 3, "right": 6, "up": 9 }
+}

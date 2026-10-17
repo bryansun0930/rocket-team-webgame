@@ -1,0 +1,6 @@
+{
+"id":"number",
+"title":"string",
+"risk":"number",
+"reward":"object"
+}

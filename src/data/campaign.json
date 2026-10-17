@@ -1,0 +1,2985 @@
+{
+  "initial": {
+    "version": 1,
+    "chapter": 0,
+    "money": 150,
+    "materials": 12,
+    "research": 0,
+    "reputation": 0,
+    "wanted": 0,
+    "balls": 8,
+    "turns": 0,
+    "captures": {},
+    "studied": [],
+    "completed": [],
+    "buildings": {
+      "lab": 0,
+      "quarters": 0,
+      "intel": 0
+    },
+    "stats": {
+      "surveys": 0,
+      "captures": 0,
+      "research": 0,
+      "trades": 0,
+      "upgrades": 0,
+      "jobs": 0
+    },
+    "log": [
+      "欢迎加入火箭队。前往任务台查看第一章行动。"
+    ],
+    "ended": false,
+    "exploration": {
+      "regionId": "kanto",
+      "siteId": "viridian"
+    },
+    "activities": {
+      "contract": null,
+      "completedContracts": [],
+      "event": null,
+      "dispatches": [],
+      "contact": null,
+      "normalSurveys": 0,
+      "dispatchActions": 0,
+      "supplyCredits": 2,
+      "contractSupportUsed": false
+    }
+  },
+  "missions": [
+    {
+      "id": "chapter_01",
+      "title": "新人加入火箭队",
+      "brief": "先熟悉外围的巡逻路线，完成一次调查。",
+      "ending": "你的代号被登记在名册上。从现在起，你是组织的一员。",
+      "objective": "surveys",
+      "target": 1,
+      "cost": {
+        "money": 0,
+        "materials": 0,
+        "research": 0
+      },
+      "reward": {
+        "money": 80,
+        "materials": 6,
+        "research": 0,
+        "reputation": 5
+      }
+    },
+    {
+      "id": "chapter_02",
+      "title": "第一次行动",
+      "brief": "带回一只宝可梦，证明你的判断力。",
+      "ending": "你带回了第一份成果，实验室向你开放。",
+      "objective": "captures",
+      "target": 1,
+      "cost": {
+        "money": 0,
+        "materials": 0,
+        "research": 0
+      },
+      "reward": {
+        "money": 105,
+        "materials": 8,
+        "research": 3,
+        "reputation": 8
+      }
+    },
+    {
+      "id": "chapter_03",
+      "title": "建立基地",
+      "brief": "升级一座设施，让这里成为可靠的落脚点。",
+      "ending": "灯光重新亮起，你拥有了自己的据点。",
+      "objective": "upgrades",
+      "target": 1,
+      "cost": {
+        "money": 0,
+        "materials": 0,
+        "research": 0
+      },
+      "reward": {
+        "money": 130,
+        "materials": 10,
+        "research": 6,
+        "reputation": 11
+      }
+    },
+    {
+      "id": "chapter_04",
+      "title": "扩大组织",
+      "brief": "完成两次物资委托，为新成员筹备装备。",
+      "ending": "新成员开始接受你的调度。",
+      "objective": "jobs",
+      "target": 2,
+      "cost": {
+        "money": 0,
+        "materials": 0,
+        "research": 0
+      },
+      "reward": {
+        "money": 155,
+        "materials": 12,
+        "research": 9,
+        "reputation": 14
+      }
+    },
+    {
+      "id": "chapter_05",
+      "title": "干部竞争",
+      "brief": "研究两种宝可梦，用成果争取干部席位。",
+      "ending": "研究报告赢得了支持，你获得了干部资格。",
+      "objective": "research",
+      "target": 2,
+      "cost": {
+        "money": 0,
+        "materials": 0,
+        "research": 0
+      },
+      "reward": {
+        "money": 180,
+        "materials": 14,
+        "research": 12,
+        "reputation": 17
+      }
+    },
+    {
+      "id": "chapter_06",
+      "title": "传说计划",
+      "brief": "累计完成三次实地调查，提交 10 研究点。",
+      "ending": "情报指向联盟的一座秘密观测站。",
+      "objective": "surveys",
+      "target": 3,
+      "cost": {
+        "money": 0,
+        "materials": 0,
+        "research": 10
+      },
+      "reward": {
+        "money": 205,
+        "materials": 16,
+        "research": 15,
+        "reputation": 20
+      }
+    },
+    {
+      "id": "chapter_07",
+      "title": "联盟调查",
+      "brief": "完成一次交易，建立新的运输渠道。",
+      "ending": "你成功绕开封锁，保住了组织的物资线。",
+      "objective": "trades",
+      "target": 1,
+      "cost": {
+        "money": 0,
+        "materials": 0,
+        "research": 0
+      },
+      "reward": {
+        "money": 230,
+        "materials": 18,
+        "research": 18,
+        "reputation": 23
+      }
+    },
+    {
+      "id": "chapter_08",
+      "title": "组织危机",
+      "brief": "累计完成三次设施升级，准备抵御搜查。",
+      "ending": "成员安全撤入掩体，据点经受住了危机。",
+      "objective": "upgrades",
+      "target": 3,
+      "cost": {
+        "money": 0,
+        "materials": 0,
+        "research": 0
+      },
+      "reward": {
+        "money": 255,
+        "materials": 20,
+        "research": 21,
+        "reputation": 26
+      }
+    },
+    {
+      "id": "chapter_09",
+      "title": "最终实验",
+      "brief": "研究三种宝可梦，提交 20 研究点。",
+      "ending": "你选择将实验成果用于保护成员。",
+      "objective": "research",
+      "target": 3,
+      "cost": {
+        "money": 0,
+        "materials": 0,
+        "research": 20
+      },
+      "reward": {
+        "money": 280,
+        "materials": 22,
+        "research": 24,
+        "reputation": 29
+      }
+    },
+    {
+      "id": "chapter_10",
+      "title": "地下王者",
+      "brief": "累计捕获五只宝可梦，提交 250 金币、20 材料和 15 研究点。",
+      "ending": "联盟的封锁被突破。你接过指挥权，成为地下组织首领。故事告一段落，基地仍由你经营。",
+      "objective": "captures",
+      "target": 5,
+      "cost": {
+        "money": 250,
+        "materials": 20,
+        "research": 15
+      },
+      "reward": {
+        "money": 305,
+        "materials": 24,
+        "research": 27,
+        "reputation": 32
+      }
+    }
+  ],
+  "encounters": [
+    {
+      "id": 41,
+      "name": "超音蝠",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 52,
+      "name": "喵喵",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 109,
+      "name": "瓦斯弹",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 25,
+      "name": "皮卡丘",
+      "chance": 0.7450980392156863,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 92,
+      "name": "鬼斯",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 133,
+      "name": "伊布",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 1,
+      "name": "妙蛙种子",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 4,
+      "name": "小火龙",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 7,
+      "name": "杰尼龟",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 56,
+      "name": "猴怪",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 63,
+      "name": "凯西",
+      "chance": 0.7843137254901961,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 74,
+      "name": "小拳石",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 2,
+      "name": "妙蛙草",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 3,
+      "name": "妙蛙花",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 5,
+      "name": "火恐龙",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 6,
+      "name": "喷火龙",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 8,
+      "name": "卡咪龟",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 9,
+      "name": "水箭龟",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 10,
+      "name": "绿毛虫",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 11,
+      "name": "铁甲蛹",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 12,
+      "name": "巴大蝶",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 13,
+      "name": "独角虫",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 14,
+      "name": "铁壳蛹",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 15,
+      "name": "大针蜂",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 16,
+      "name": "波波",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 17,
+      "name": "比比鸟",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 18,
+      "name": "大比鸟",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 19,
+      "name": "小拉达",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 20,
+      "name": "拉达",
+      "chance": 0.4980392156862745,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 21,
+      "name": "烈雀",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 22,
+      "name": "大嘴雀",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 23,
+      "name": "阿柏蛇",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 24,
+      "name": "阿柏怪",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 26,
+      "name": "雷丘",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 27,
+      "name": "穿山鼠",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 28,
+      "name": "穿山王",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 29,
+      "name": "尼多兰",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 30,
+      "name": "尼多娜",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 31,
+      "name": "尼多后",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 32,
+      "name": "尼多朗",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 33,
+      "name": "尼多力诺",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 34,
+      "name": "尼多王",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 35,
+      "name": "皮皮",
+      "chance": 0.5882352941176471,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 36,
+      "name": "皮可西",
+      "chance": 0.15,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 37,
+      "name": "六尾",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 38,
+      "name": "九尾",
+      "chance": 0.29411764705882354,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 39,
+      "name": "胖丁",
+      "chance": 0.6666666666666666,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 40,
+      "name": "胖可丁",
+      "chance": 0.19607843137254902,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 42,
+      "name": "大嘴蝠",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 43,
+      "name": "走路草",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 44,
+      "name": "臭臭花",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 45,
+      "name": "霸王花",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 46,
+      "name": "派拉斯",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 47,
+      "name": "派拉斯特",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 48,
+      "name": "毛球",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 49,
+      "name": "摩鲁蛾",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 50,
+      "name": "地鼠",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 51,
+      "name": "三地鼠",
+      "chance": 0.19607843137254902,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 53,
+      "name": "猫老大",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 54,
+      "name": "可达鸭",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 55,
+      "name": "哥达鸭",
+      "chance": 0.29411764705882354,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 57,
+      "name": "火暴猴",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 58,
+      "name": "卡蒂狗",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 59,
+      "name": "风速狗",
+      "chance": 0.29411764705882354,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 60,
+      "name": "蚊香蝌蚪",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 61,
+      "name": "蚊香君",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 62,
+      "name": "蚊香泳士",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 64,
+      "name": "勇基拉",
+      "chance": 0.39215686274509803,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 65,
+      "name": "胡地",
+      "chance": 0.19607843137254902,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 66,
+      "name": "腕力",
+      "chance": 0.7058823529411765,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 67,
+      "name": "豪力",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 68,
+      "name": "怪力",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 69,
+      "name": "喇叭芽",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 70,
+      "name": "口呆花",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 71,
+      "name": "大食花",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 72,
+      "name": "玛瑙水母",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 73,
+      "name": "毒刺水母",
+      "chance": 0.23529411764705882,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 75,
+      "name": "隆隆石",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 76,
+      "name": "隆隆岩",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 77,
+      "name": "小火马",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 78,
+      "name": "烈焰马",
+      "chance": 0.23529411764705882,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 79,
+      "name": "呆呆兽",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 80,
+      "name": "呆壳兽",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 81,
+      "name": "小磁怪",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 82,
+      "name": "三合一磁怪",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 83,
+      "name": "大葱鸭",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 84,
+      "name": "嘟嘟",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 85,
+      "name": "嘟嘟利",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 86,
+      "name": "小海狮",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 87,
+      "name": "白海狮",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 88,
+      "name": "臭泥",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 89,
+      "name": "臭臭泥",
+      "chance": 0.29411764705882354,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 90,
+      "name": "大舌贝",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 91,
+      "name": "刺甲贝",
+      "chance": 0.23529411764705882,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 93,
+      "name": "鬼斯通",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 94,
+      "name": "耿鬼",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 95,
+      "name": "大岩蛇",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 96,
+      "name": "催眠貘",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 97,
+      "name": "引梦貘人",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 98,
+      "name": "大钳蟹",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 99,
+      "name": "巨钳蟹",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 100,
+      "name": "霹雳电球",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 101,
+      "name": "顽皮雷弹",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 102,
+      "name": "蛋蛋",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 103,
+      "name": "椰蛋树",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 104,
+      "name": "卡拉卡拉",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 105,
+      "name": "嘎啦嘎啦",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 106,
+      "name": "飞腿郎",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 107,
+      "name": "快拳郎",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 108,
+      "name": "大舌头",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 110,
+      "name": "双弹瓦斯",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 111,
+      "name": "独角犀牛",
+      "chance": 0.47058823529411764,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 112,
+      "name": "钻角犀兽",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 113,
+      "name": "吉利蛋",
+      "chance": 0.15,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 114,
+      "name": "蔓藤怪",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 115,
+      "name": "袋兽",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 116,
+      "name": "墨海马",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 117,
+      "name": "海刺龙",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 118,
+      "name": "角金鱼",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 119,
+      "name": "金鱼王",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 120,
+      "name": "海星星",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 121,
+      "name": "宝石海星",
+      "chance": 0.23529411764705882,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 122,
+      "name": "魔墙人偶",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 123,
+      "name": "飞天螳螂",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 124,
+      "name": "迷唇姐",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 125,
+      "name": "电击兽",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 126,
+      "name": "鸭嘴火兽",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 127,
+      "name": "凯罗斯",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 128,
+      "name": "肯泰罗",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 129,
+      "name": "鲤鱼王",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 130,
+      "name": "暴鲤龙",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 131,
+      "name": "拉普拉斯",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 132,
+      "name": "百变怪",
+      "chance": 0.15,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 134,
+      "name": "水伊布",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 135,
+      "name": "雷伊布",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 136,
+      "name": "火伊布",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 137,
+      "name": "多边兽",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 138,
+      "name": "菊石兽",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 139,
+      "name": "多刺菊石兽",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 140,
+      "name": "化石盔",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 141,
+      "name": "镰刀盔",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 142,
+      "name": "化石翼龙",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 143,
+      "name": "卡比兽",
+      "chance": 0.15,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 144,
+      "name": "急冻鸟",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 145,
+      "name": "闪电鸟",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 146,
+      "name": "火焰鸟",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 147,
+      "name": "迷你龙",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 148,
+      "name": "哈克龙",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 149,
+      "name": "快龙",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 150,
+      "name": "超梦",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 151,
+      "name": "梦幻",
+      "chance": 0.17647058823529413,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 152,
+      "name": "菊草叶",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 153,
+      "name": "月桂叶",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 154,
+      "name": "大竺葵",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 155,
+      "name": "火球鼠",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 156,
+      "name": "火岩鼠",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 157,
+      "name": "火暴兽",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 158,
+      "name": "小锯鳄",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 159,
+      "name": "蓝鳄",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 160,
+      "name": "大力鳄",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 161,
+      "name": "尾立",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 162,
+      "name": "大尾立",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 163,
+      "name": "咕咕",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 164,
+      "name": "猫头夜鹰",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 165,
+      "name": "芭瓢虫",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 166,
+      "name": "安瓢虫",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 167,
+      "name": "圆丝蛛",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 168,
+      "name": "阿利多斯",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 169,
+      "name": "叉字蝠",
+      "chance": 0.35294117647058826,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 170,
+      "name": "灯笼鱼",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 171,
+      "name": "电灯怪",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 172,
+      "name": "皮丘",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 173,
+      "name": "皮宝宝",
+      "chance": 0.5882352941176471,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 174,
+      "name": "宝宝丁",
+      "chance": 0.6666666666666666,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 175,
+      "name": "波克比",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 176,
+      "name": "波克基古",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 177,
+      "name": "天然雀",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 178,
+      "name": "天然鸟",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 179,
+      "name": "咩利羊",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 180,
+      "name": "茸茸羊",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 181,
+      "name": "电龙",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 182,
+      "name": "美丽花",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 183,
+      "name": "玛力露",
+      "chance": 0.7450980392156863,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 184,
+      "name": "玛力露丽",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 185,
+      "name": "树才怪",
+      "chance": 0.2549019607843137,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 186,
+      "name": "蚊香蛙皇",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 187,
+      "name": "毽子草",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 188,
+      "name": "毽子花",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 189,
+      "name": "毽子棉",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 190,
+      "name": "长尾怪手",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 191,
+      "name": "向日种子",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 192,
+      "name": "向日花怪",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 193,
+      "name": "蜻蜻蜓",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 194,
+      "name": "乌波",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 195,
+      "name": "沼王",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 196,
+      "name": "太阳伊布",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 197,
+      "name": "月亮伊布",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 198,
+      "name": "黑暗鸦",
+      "chance": 0.15,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 199,
+      "name": "呆呆王",
+      "chance": 0.27450980392156865,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 200,
+      "name": "梦妖",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 201,
+      "name": "未知图腾",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 202,
+      "name": "果然翁",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 203,
+      "name": "麒麟奇",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 204,
+      "name": "榛果球",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 205,
+      "name": "佛烈托斯",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 206,
+      "name": "土龙弟弟",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 207,
+      "name": "天蝎",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 208,
+      "name": "大钢蛇",
+      "chance": 0.15,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 209,
+      "name": "布鲁",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 210,
+      "name": "布鲁皇",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 211,
+      "name": "千针鱼",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 212,
+      "name": "巨钳螳螂",
+      "chance": 0.15,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 213,
+      "name": "壶壶",
+      "chance": 0.7450980392156863,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 214,
+      "name": "赫拉克罗斯",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 215,
+      "name": "狃拉",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 216,
+      "name": "熊宝宝",
+      "chance": 0.47058823529411764,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 217,
+      "name": "圈圈熊",
+      "chance": 0.23529411764705882,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 218,
+      "name": "熔岩虫",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 219,
+      "name": "熔岩蜗牛",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 220,
+      "name": "小山猪",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 221,
+      "name": "长毛猪",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 222,
+      "name": "太阳珊瑚",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 223,
+      "name": "铁炮鱼",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 224,
+      "name": "章鱼桶",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 225,
+      "name": "信使鸟",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 226,
+      "name": "巨翅飞鱼",
+      "chance": 0.15,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 227,
+      "name": "盔甲鸟",
+      "chance": 0.15,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 228,
+      "name": "戴鲁比",
+      "chance": 0.47058823529411764,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 229,
+      "name": "黑鲁加",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 230,
+      "name": "刺龙王",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 231,
+      "name": "小小象",
+      "chance": 0.47058823529411764,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 232,
+      "name": "顿甲",
+      "chance": 0.23529411764705882,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 233,
+      "name": "多边兽２型",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 234,
+      "name": "惊角鹿",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 235,
+      "name": "图图犬",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 236,
+      "name": "无畏小子",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 237,
+      "name": "战舞郎",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 238,
+      "name": "迷唇娃",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 239,
+      "name": "电击怪",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 240,
+      "name": "鸭嘴宝宝",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 241,
+      "name": "大奶罐",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 242,
+      "name": "幸福蛋",
+      "chance": 0.15,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 243,
+      "name": "雷公",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 244,
+      "name": "炎帝",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 245,
+      "name": "水君",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 246,
+      "name": "幼基拉斯",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 247,
+      "name": "沙基拉斯",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 248,
+      "name": "班基拉斯",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 249,
+      "name": "洛奇亚",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 250,
+      "name": "凤王",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 251,
+      "name": "时拉比",
+      "chance": 0.17647058823529413,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 252,
+      "name": "木守宫",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 253,
+      "name": "森林蜥蜴",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 254,
+      "name": "蜥蜴王",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 255,
+      "name": "火稚鸡",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 256,
+      "name": "力壮鸡",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 257,
+      "name": "火焰鸡",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 258,
+      "name": "水跃鱼",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 259,
+      "name": "沼跃鱼",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 260,
+      "name": "巨沼怪",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 261,
+      "name": "土狼犬",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 262,
+      "name": "大狼犬",
+      "chance": 0.4980392156862745,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 263,
+      "name": "蛇纹熊",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 264,
+      "name": "直冲熊",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 265,
+      "name": "刺尾虫",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 266,
+      "name": "甲壳茧",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 267,
+      "name": "狩猎凤蝶",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 268,
+      "name": "盾甲茧",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 269,
+      "name": "毒粉蛾",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 270,
+      "name": "莲叶童子",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 271,
+      "name": "莲帽小童",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 272,
+      "name": "乐天河童",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 273,
+      "name": "橡实果",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 274,
+      "name": "长鼻叶",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 275,
+      "name": "狡猾天狗",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 276,
+      "name": "傲骨燕",
+      "chance": 0.7843137254901961,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 277,
+      "name": "大王燕",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 278,
+      "name": "长翅鸥",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 279,
+      "name": "大嘴鸥",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 280,
+      "name": "拉鲁拉丝",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 281,
+      "name": "奇鲁莉安",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 282,
+      "name": "沙奈朵",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 283,
+      "name": "溜溜糖球",
+      "chance": 0.7843137254901961,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 284,
+      "name": "雨翅蛾",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 285,
+      "name": "蘑蘑菇",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 286,
+      "name": "斗笠菇",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 287,
+      "name": "懒人獭",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 288,
+      "name": "过动猿",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 289,
+      "name": "请假王",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 290,
+      "name": "土居忍士",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 291,
+      "name": "铁面忍者",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 292,
+      "name": "脱壳忍者",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 293,
+      "name": "咕妞妞",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 294,
+      "name": "吼爆弹",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 295,
+      "name": "爆音怪",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 296,
+      "name": "幕下力士",
+      "chance": 0.7058823529411765,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 297,
+      "name": "铁掌力士",
+      "chance": 0.7843137254901961,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 298,
+      "name": "露力丽",
+      "chance": 0.5882352941176471,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 299,
+      "name": "朝北鼻",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 300,
+      "name": "向尾喵",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 301,
+      "name": "优雅猫",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 302,
+      "name": "勾魂眼",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 303,
+      "name": "大嘴娃",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 304,
+      "name": "可可多拉",
+      "chance": 0.7058823529411765,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 305,
+      "name": "可多拉",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 306,
+      "name": "波士可多拉",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 307,
+      "name": "玛沙那",
+      "chance": 0.7058823529411765,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 308,
+      "name": "恰雷姆",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 309,
+      "name": "落雷兽",
+      "chance": 0.47058823529411764,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 310,
+      "name": "雷电兽",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 311,
+      "name": "正电拍拍",
+      "chance": 0.7843137254901961,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 312,
+      "name": "負电拍拍",
+      "chance": 0.7843137254901961,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 313,
+      "name": "电萤虫",
+      "chance": 0.5882352941176471,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 314,
+      "name": "甜甜萤",
+      "chance": 0.5882352941176471,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 315,
+      "name": "毒蔷薇",
+      "chance": 0.5882352941176471,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 316,
+      "name": "溶食兽",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 317,
+      "name": "吞食兽",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 318,
+      "name": "利牙鱼",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 319,
+      "name": "巨牙鲨",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 320,
+      "name": "吼吼鲸",
+      "chance": 0.49019607843137253,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 321,
+      "name": "吼鲸王",
+      "chance": 0.23529411764705882,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 322,
+      "name": "呆火驼",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 323,
+      "name": "喷火驼",
+      "chance": 0.5882352941176471,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 324,
+      "name": "煤炭龟",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 325,
+      "name": "跳跳猪",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 326,
+      "name": "噗噗猪",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 327,
+      "name": "晃晃斑",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 328,
+      "name": "大颚蚁",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 329,
+      "name": "超音波幼虫",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 330,
+      "name": "沙漠蜻蜓",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 331,
+      "name": "刺球仙人掌",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 332,
+      "name": "梦歌仙人掌",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 333,
+      "name": "青绵鸟",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 334,
+      "name": "七夕青鸟",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 335,
+      "name": "猫鼬斩",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 336,
+      "name": "饭匙蛇",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 337,
+      "name": "月石",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 338,
+      "name": "太阳岩",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 339,
+      "name": "泥泥鳅",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 340,
+      "name": "鲶鱼王",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 341,
+      "name": "龙虾小兵",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 342,
+      "name": "铁螯龙虾",
+      "chance": 0.6078431372549019,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 343,
+      "name": "天秤偶",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 344,
+      "name": "念力土偶",
+      "chance": 0.35294117647058826,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 345,
+      "name": "触手百合",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 346,
+      "name": "摇篮百合",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 347,
+      "name": "太古羽虫",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 348,
+      "name": "太古盔甲",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 349,
+      "name": "丑丑鱼",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 350,
+      "name": "美纳斯",
+      "chance": 0.23529411764705882,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 351,
+      "name": "飘浮泡泡",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 352,
+      "name": "变隐龙",
+      "chance": 0.7843137254901961,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 353,
+      "name": "怨影娃娃",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 354,
+      "name": "诅咒娃娃",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 355,
+      "name": "夜巡灵",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 356,
+      "name": "彷徨夜灵",
+      "chance": 0.35294117647058826,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 357,
+      "name": "热带龙",
+      "chance": 0.7843137254901961,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 358,
+      "name": "风铃铃",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 359,
+      "name": "阿勃梭鲁",
+      "chance": 0.15,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 360,
+      "name": "小果然",
+      "chance": 0.49019607843137253,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 361,
+      "name": "雪童子",
+      "chance": 0.7450980392156863,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 362,
+      "name": "冰鬼护",
+      "chance": 0.29411764705882354,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 363,
+      "name": "海豹球",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 364,
+      "name": "海魔狮",
+      "chance": 0.47058823529411764,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 365,
+      "name": "帝牙海狮",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 366,
+      "name": "珍珠贝",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 367,
+      "name": "猎斑鱼",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 368,
+      "name": "樱花鱼",
+      "chance": 0.23529411764705882,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 369,
+      "name": "古空棘鱼",
+      "chance": 0.15,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 370,
+      "name": "爱心鱼",
+      "chance": 0.8,
+      "weight": 8,
+      "rarity": "common"
+    },
+    {
+      "id": 371,
+      "name": "宝贝龙",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 372,
+      "name": "甲壳龙",
+      "chance": 0.17647058823529413,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 373,
+      "name": "暴飞龙",
+      "chance": 0.17647058823529413,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 374,
+      "name": "铁哑铃",
+      "chance": 0.15,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 375,
+      "name": "金属怪",
+      "chance": 0.15,
+      "weight": 4,
+      "rarity": "uncommon"
+    },
+    {
+      "id": 376,
+      "name": "巨金怪",
+      "chance": 0.15,
+      "weight": 1,
+      "rarity": "rare"
+    },
+    {
+      "id": 377,
+      "name": "雷吉洛克",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 378,
+      "name": "雷吉艾斯",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 379,
+      "name": "雷吉斯奇鲁",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 380,
+      "name": "拉帝亚斯",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 381,
+      "name": "拉帝欧斯",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 382,
+      "name": "盖欧卡",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 383,
+      "name": "固拉多",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 384,
+      "name": "烈空坐",
+      "chance": 0.17647058823529413,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 385,
+      "name": "基拉祈",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    },
+    {
+      "id": 386,
+      "name": "代欧奇希斯",
+      "chance": 0.15,
+      "weight": 0.25,
+      "rarity": "legendary"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "lab",
+      "name": "研究室",
+      "description": "每级提高捕获率与研究收益。",
+      "money": 100,
+      "materials": 8,
+      "max": 3
+    },
+    {
+      "id": "quarters",
+      "name": "成员宿舍",
+      "description": "每级提高物资委托的金币收益。",
+      "money": 80,
+      "materials": 6,
+      "max": 3
+    },
+    {
+      "id": "intel",
+      "name": "情报中心",
+      "description": "每级减少调查带来的通缉增长。",
+      "money": 90,
+      "materials": 7,
+      "max": 3
+    }
+  ],
+  "rules": {
+    "ballPrice": 15,
+    "researchMoney": 25,
+    "researchPoints": 12,
+    "tradeMoney": 65,
+    "jobMoney": 40,
+    "jobMaterials": 5,
+    "restReduction": 25,
+    "surveyMaterials": 3,
+    "surveyMoney": 15,
+    "wantedPerSurvey": 8,
+    "raidThreshold": 100,
+    "raidMoney": 35,
+    "firstCaptureGuaranteed": true
+  }
+}

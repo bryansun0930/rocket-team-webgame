@@ -1,0 +1,9 @@
+{
+  "importedAt": "2026-10-17T09:09:32.783Z",
+  "count": 386,
+  "dataRoot": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/",
+  "spriteRoot": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/",
+  "language": "zh-Hans (12), English (9)",
+  "description": "Existing authored descriptions preserved; new descriptions composed from structured fields.",
+  "sprites": "Generation III Emerald front sprites, original files retained without edits."
+}

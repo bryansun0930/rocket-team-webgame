@@ -1,0 +1,32 @@
+{
+  "initial": {
+    "key": "rocket_base",
+    "url": "assets/maps/rocket_base.json",
+    "tilesetName": "rocket_base",
+    "tilesetUrl": "assets/tiles/rocket_base/tiles.png",
+    "layers": [
+      "ground",
+      "walls",
+      "furniture"
+    ],
+    "spawnLayer": "spawns",
+    "spawnName": "player",
+    "zoom": 2,
+    "playerSpeed": 80
+  },
+  "field": {
+    "key": "rocket_field",
+    "url": "assets/maps/rocket_field.json",
+    "tilesetName": "rocket_base",
+    "tilesetUrl": "assets/tiles/rocket_base/tiles.png",
+    "layers": [
+      "ground",
+      "walls",
+      "furniture"
+    ],
+    "spawnLayer": "spawns",
+    "spawnName": "player",
+    "zoom": 2,
+    "playerSpeed": 80
+  }
+}

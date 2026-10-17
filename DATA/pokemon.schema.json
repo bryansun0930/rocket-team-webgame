@@ -1,0 +1,7 @@
+{
+"id":"number",
+"name":"string",
+"type":"array",
+"rocketValue":"number",
+"researchValue":"number"
+}

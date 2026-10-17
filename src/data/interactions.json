@@ -1,0 +1,78 @@
+{
+  "base": [
+    {
+      "x": 200,
+      "y": 232,
+      "name": "干部·任务",
+      "panel": "missions",
+      "frame": 0,
+      "tint": 16777215
+    },
+    {
+      "x": 280,
+      "y": 232,
+      "name": "研究员",
+      "panel": "collection",
+      "frame": 0,
+      "tint": 12184575
+    },
+    {
+      "x": 200,
+      "y": 296,
+      "name": "补给员",
+      "panel": "market",
+      "frame": 3,
+      "tint": 16765345
+    },
+    {
+      "x": 280,
+      "y": 296,
+      "name": "工程师",
+      "panel": "base",
+      "frame": 6,
+      "tint": 12582645
+    },
+    {
+      "x": 240,
+      "y": 352,
+      "name": "外出调查",
+      "panel": "field",
+      "frame": 9,
+      "tint": 16743006
+    }
+  ],
+  "field": [
+    {
+      "x": 200,
+      "y": 232,
+      "name": "调查向导",
+      "panel": "explore",
+      "frame": 9,
+      "tint": 16765345
+    },
+    {
+      "x": 280,
+      "y": 232,
+      "name": "观察员",
+      "panel": "explore",
+      "frame": 3,
+      "tint": 12582645
+    },
+    {
+      "x": 280,
+      "y": 296,
+      "name": "草丛调查",
+      "panel": "explore",
+      "frame": 6,
+      "tint": 12184575
+    },
+    {
+      "x": 200,
+      "y": 296,
+      "name": "返回基地",
+      "panel": "return",
+      "frame": 0,
+      "tint": 16743006
+    }
+  ]
+}

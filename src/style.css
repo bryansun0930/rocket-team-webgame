@@ -1,0 +1,104 @@
+:root { font-family: system-ui,-apple-system,sans-serif;color:#eeeaf0;background:#090a0e;font-synthesis:none;color-scheme:dark; }
+* { box-sizing:border-box; }
+body { margin:0;min-height:100vh;min-height:100dvh;display:grid;place-items:center;overflow:hidden;background:radial-gradient(ellipse at 50% 30%,#29232d,#090a0e 70%); }
+button,input,select { font:inherit;color:inherit; }
+button { cursor:pointer;background:#352735;border:1px solid #705065;padding:11px 14px;border-radius:8px;touch-action:manipulation; }
+button:hover { background:#523349; }button:disabled { opacity:.45;cursor:not-allowed; }
+:focus-visible { outline:2px solid #f2c27d;outline-offset:3px; }
+p { color:#bfb5c4;line-height:1.7; }h1,h2,h3,p { margin-top:0; }
+.game-shell { position:relative;isolation:isolate;width:min(100vw,520px);height:100vh;height:100dvh;max-height:980px;overflow:hidden;background:#242332;box-shadow:0 0 100px #0009; }
+.world-layer { position:absolute;inset:0; }
+.game-canvas { position:absolute;inset:0;overflow:hidden;touch-action:none; }
+canvas { display:block;image-rendering:pixelated; }
+.world-vignette { position:absolute;inset:0;pointer-events:none;background:linear-gradient(#0b0c16bb 0,transparent 28%,transparent 58%,#0b0c1680 100%); }
+.hud-header { position:absolute;top:0;left:0;right:0;display:flex;align-items:center;gap:10px;padding:calc(12px + env(safe-area-inset-top,0px)) 14px 10px;background:linear-gradient(#14131cf5,#14131ce8);border-bottom:1px solid #70506555; }
+.hud-identity { display:flex;align-items:center;gap:9px;flex:1; }.hud-identity strong { font-size:17px;letter-spacing:.06em; }.hud-identity small { display:block;font-size:10px;color:#b8aebb;margin-top:3px; }
+.team-emblem { font:900 30px/1 monospace;color:#f26b7b;text-shadow:2px 2px #782d40; }
+.hud-wallet { display:flex;align-items:center;gap:5px;color:#f3c780;font-size:14px; }.hud-wallet small { color:#b5a5b2;font-size:10px; }
+.terminal-button { width:40px;height:40px;padding:0;font-size:20px;background:#3b293d; }
+.hud-resources { position:absolute;top:calc(70px + env(safe-area-inset-top,0px));left:14px;right:14px;display:flex;justify-content:space-between;gap:5px;font-size:10px;color:#c7becb; }.hud-resources span { padding:5px 8px;background:#15131de8;border:1px solid #64516c6b;border-radius:5px; }.hud-resources b { color:#f0d9a8;font-size:12px;margin-left:4px; }.hud-resources .danger b { color:#ff7788; }
+.quest-tracker { position:absolute;top:calc(108px + env(safe-area-inset-top,0px));left:14px;right:14px;display:flex;align-items:center;gap:9px;padding:12px 12px 16px;background:#201c2af2;border-color:#a5835255;box-shadow:0 4px 12px #0003;text-align:left;border-radius:9px; }
+.quest-chapter { color:#efc27c;font-size:10px;white-space:nowrap; }.quest-tracker strong { font-size:13px;flex:1; }.quest-count { font-size:11px;color:#edc282; }.quest-meter { position:absolute;bottom:0;left:0;right:0;height:3px;background:#463b49;overflow:hidden;border-radius:0 0 9px 9px; }.quest-meter>span { display:block;height:100%;background:#e5b975;transition:width .3s; }
+.world-location { position:absolute;top:calc(174px + env(safe-area-inset-top,0px));left:16px;right:16px;display:flex;justify-content:space-between;align-items:center;gap:8px; }.world-location>span { font-size:11px;background:#171821b8;padding:6px 8px;border-radius:4px;color:#d9d0db; }.world-location>span::first-letter { color:#81c8ad; }.world-location button { padding:7px 10px;font-size:11px;background:#1b1a25d9; }
+.guide-card { position:absolute;bottom:calc(94px + env(safe-area-inset-bottom,0px));left:14px;right:14px;padding:13px 14px;background:linear-gradient(125deg,#292335f7,#191822f7);border:1px solid #897055;border-radius:12px;box-shadow:0 8px 25px #0007; }
+.guide-copy { display:flex;gap:10px;align-items:center; }.guide-portrait { flex:0 0 44px;height:48px;background-repeat:no-repeat;background-size:144px 192px;image-rendering:pixelated;border-bottom:2px solid #785061;background-color:#211a29;border-radius:6px; }
+.guide-kicker { font-size:9px;letter-spacing:.04em;color:#d2b685;margin:0 0 4px; }.guide-copy h2 { font-size:15px;line-height:1.4;margin:0; }.guide-detail { font-size:11px;margin:7px 0 10px;color:#c7becf;line-height:1.6; }
+.primary-action { width:100%;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(#ce566d,#a83b55);border:1px solid #ee8192;box-shadow:0 3px 0 #642538;font-size:13px;font-weight:700;padding:10px 13px;border-radius:6px; }.primary-action:hover { background:#dc647b; }.primary-action span { font-size:18px; }
+.tap-instruction { position:absolute;bottom:calc(73px + env(safe-area-inset-bottom,0px));left:0;right:0;text-align:center;font-size:9px;color:#ded2e3;text-shadow:0 1px 4px #000;margin:0;pointer-events:none; }
+.game-dock { position:absolute;bottom:0;left:0;right:0;height:calc(68px + env(safe-area-inset-bottom,0px));padding:6px 8px calc(5px + env(safe-area-inset-bottom,0px));display:grid;grid-template-columns:repeat(5,1fr);background:linear-gradient(#25212ff5,#16151fee);border-top:1px solid #746075;box-shadow:0 -5px 20px #0004; }
+.game-dock button { display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;background:transparent;border:0;padding:3px;color:#b7adbf;font-size:10px;border-radius:8px; }.game-dock button[aria-pressed=true] { color:#ffd397;background:#63513c44; }.dock-icon { font-size:22px;line-height:1.1; }
+.game-toast { position:absolute;z-index:20;top:calc(216px + env(safe-area-inset-top,0px));left:20px;right:20px;background:#171922f5;border:1px solid #b99b60;border-radius:8px;padding:10px 12px;display:flex;align-items:center;gap:10px;box-shadow:0 5px 20px #0006;font-size:12px;line-height:1.6; }.game-toast>span { flex:1; }.game-toast button { padding:3px 8px;background:none;border:0;font-size:18px; }.toast-enter-active,.toast-leave-active { transition:opacity .2s,transform .2s; }.toast-enter-from,.toast-leave-to { opacity:0;transform:translateY(-8px); }
+.sheet-backdrop { position:absolute;z-index:10;inset:0;background:#08081199;display:flex;align-items:flex-end;padding-top:calc(32px + env(safe-area-inset-top,0px));backdrop-filter:blur(3px); }
+.game-sheet { width:100%;max-height:100%;min-height:55%;display:flex;flex-direction:column;background:#1a1722;border:1px solid #7c5b73;border-bottom:0;border-radius:20px 20px 0 0;box-shadow:0 -12px 45px #0008;outline:none; }
+.sheet-header { display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 20px 14px;border-bottom:1px solid #4e3c52;flex:none; }.sheet-header p { font-size:9px;letter-spacing:.16em;color:#e4b67b;margin:0 0 4px; }.sheet-header h2 { font-size:20px;margin:0; }.sheet-header button { width:40px;height:40px;padding:0;background:#342836;border-color:#76526b; }
+.sheet-body { overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:18px 18px calc(24px + env(safe-area-inset-bottom,0px));min-height:0; }
+.terminal-intro { font-size:14px; }.terminal-grid { display:grid;grid-template-columns:1fr 1fr;gap:12px; }.terminal-grid button { display:flex;align-items:flex-start;flex-direction:column;gap:8px;padding:18px 12px;background:#292230; }.terminal-grid strong { font-size:14px; }.terminal-grid small { color:#b5a6b9;font-size:10px;text-align:left; }.terminal-icon { color:#edba7d;font-size:25px; }.terminal-stats { display:flex;justify-content:space-between;gap:10px;margin:24px 0;font-size:11px;color:#b9a9bf; }.terminal-stats b { color:#e4c39c; }.save-caption { font-size:10px;color:#a392aa; }
+.operations h2,.pokedex>h2 { font-size:20px;margin:8px 0 14px; }.operations h3 { font-size:16px; }.operations p,.pokedex>p { font-size:13px;line-height:1.8; }.eyebrow { font-size:9px;color:#d0aa77;letter-spacing:.12em; }.objective { display:flex;justify-content:space-between;gap:10px;font-size:13px;margin-top:24px; }progress { width:100%;height:10px;margin:12px 0;accent-color:#d96a83; }.story-text { color:#e2d3e1; }.operations>button { width:100%;margin:6px 0; }.operations details { margin-top:24px;font-size:12px;line-height:2; }.operations summary { cursor:pointer;color:#dab781; }.facility-grid { display:grid;gap:12px;margin:16px 0; }.facility-card,.encounter-card { background:#28202f;border:1px solid #5b415c;padding:16px;border-radius:10px; }.facility-card h3 { display:flex;justify-content:space-between; }.facility-card small { color:#e2b77a;font-weight:400; }.facility-card button { margin:5px 5px 5px 0;font-size:12px; }.encounter-card { border-color:#b79259;margin:18px 0; }.encounter-card>button { display:block;width:100%;margin:8px 0; }.encounter-card>button:first-of-type { background:#b54661; }.secondary { background:transparent; }.action-stack { display:grid;gap:12px;margin:20px 0; }.action-stack label { display:grid;gap:10px;font-size:12px; }.action-stack button { min-height:46px;text-align:left;font-size:12px; }.activity-log { padding-left:20px;color:#b7a8bc;line-height:1.9;font-size:12px; }.reset-confirm { padding:12px;background:#40202b;border-radius:8px; }.reset-confirm button { margin:4px; }
+.dex-filters { display:grid;gap:12px; }.dex-filters label { display:grid;gap:7px;font-size:12px; }input,select { width:100%;background:#24202c;border:1px solid #65506f;padding:11px;border-radius:6px;font-size:16px; }.dex-number,.english-name { font-size:10px;color:#b5a4bc; }.type-tags { display:flex;gap:4px;flex-wrap:wrap; }.type-tags>span { padding:3px 7px;background:#45334a;border-radius:4px;font-size:10px;color:#ddccdf; }.ownership { color:#a1d5b7;font-size:10px; }.dex-detail { margin-top:20px; }.dex-detail h2 { font-size:28px;margin:10px 0; }.dex-detail p { font-size:13px; }.description { line-height:1.8;margin:24px 0; }dl { display:flex;gap:36px; }dt { font-size:12px;color:#baa9c1; }dd { margin:8px 0;font-size:22px;color:#edbd7b; }.data-note { font-size:11px!important; }.empty-state { text-align:center;padding:24px;border:1px dashed #67526c;border-radius:8px; }
+.boot-screen { height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;background:radial-gradient(#322334,#15121c); }.boot-screen h1 { font-size:28px; }.boot-screen p { font-size:12px; }.boot-emblem { font:900 100px/1.5 monospace;color:#d65c75; }.map-loading { position:absolute;top:45%;left:0;right:0;text-align:center;font-size:12px;background:#17131dd9;padding:10px; }
+@media(min-width:600px){.game-shell{border:1px solid #4c3a52;border-radius:16px;height:calc(100dvh - 24px);}.hud-header{border-radius:16px 16px 0 0;}}
+@media(max-height:680px){.hud-header{padding-top:8px;padding-bottom:7px;}.hud-resources{top:62px;}.quest-tracker{top:96px;padding-top:9px;padding-bottom:13px;}.world-location{top:153px;}.guide-card{padding:9px 12px;}.guide-portrait{display:none;}.guide-copy h2{font-size:13px;}.guide-detail{font-size:10px;margin:5px 0 7px;}.guide-kicker{font-size:8px;}.primary-action{padding:7px 12px;font-size:12px;}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;}}
+.sheet-message { padding:10px 12px;border-left:3px solid #e7b97c;background:#493a2c44;color:#f1d4a4;border-radius:4px;font-size:12px;line-height:1.7;margin-bottom:18px; }
+.sheet-next { margin:0 18px calc(16px + env(safe-area-inset-bottom,0px));background:#a73f58;border-color:#df768b;flex:none;min-height:44px;font-size:13px; }
+.operations:not(.operations-missions)>h2,.operations>.eyebrow { display:none; }
+.operations button { min-height:44px; }
+.pokemon-visual { display:inline-flex;align-items:center;justify-content:center;width:96px;height:96px;flex:none;vertical-align:middle; }
+.pokemon-visual img { width:100%;height:100%;object-fit:contain;image-rendering:pixelated;filter:drop-shadow(0 5px 2px #0005); }
+.pokemon-visual-large { width:192px;height:192px;max-width:100%; }
+.sprite-fallback { display:grid;gap:8px;text-align:center;color:#a996b4;font:30px monospace; }.sprite-fallback small { font:10px system-ui; }
+.rarity-tag { font-size:10px;font-weight:400;padding:3px 7px;border:1px solid #71647c;border-radius:4px;color:#c1b7cb; }.rarity-tag.uncommon { color:#92d0b3;border-color:#547e70; }.rarity-tag.rare { color:#d2a5f1;border-color:#8e61a8; }.rarity-tag.legendary { color:#ffd28b;border-color:#ad8446;background:#6d4e2033; }
+.dex-hero { display:flex;justify-content:center;background:radial-gradient(ellipse,#65517955,transparent 70%);border:1px solid #56425f;border-radius:12px;margin-bottom:18px; }.dex-hero[data-rarity=legendary] { background:radial-gradient(ellipse,#a4793644,transparent 70%);border-color:#ad8446; }
+.species-meta { display:flex;gap:12px;align-items:center;flex-wrap:wrap; }
+.dex-filters { grid-template-columns:1fr 1fr; }.dex-filters>label:first-child { grid-column:1/-1; }
+.encounter-scene { display:flex;justify-content:center;border-radius:10px;border:1px solid #577764;background:radial-gradient(ellipse at 50% 90%,#5d806a88,transparent 55%),linear-gradient(#263743,#354d3d);margin:12px 0 18px;overflow:hidden; }.encounter-scene .pokemon-visual { animation:encounter-float 2.4s ease-in-out infinite; }
+.encounter-card h3 { display:flex;gap:10px;align-items:center;justify-content:center; }
+.operations-collection .facility-card>.pokemon-visual { float:left;margin:-8px 12px 4px 0; }.operations-collection .facility-card::after { content:'';display:block;clear:both; }
+@keyframes encounter-float { 0%,100% { transform:translateY(0); }50% { transform:translateY(-5px); } }
+@media(prefers-reduced-motion:reduce) { .encounter-scene .pokemon-visual { animation:none; } }
+
+.dex-summary { display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;color:#ebd2ae;font-size:11px!important; }
+.dex-summary span { color:#b7a9c1; }
+.dex-filters { gap:8px; }.dex-filters label { gap:4px;font-size:10px; }
+.dex-filters select { padding:9px 8px;font-size:12px;min-height:38px; }
+.dex-result-count { font-size:10px!important;margin:12px 0 8px; }
+.dex-list { display:flex;flex-direction:column;gap:6px; }
+.dex-row { display:flex;align-items:center;gap:10px;width:100%;min-height:56px;padding:7px 12px;text-align:left;background:#25202e;border-color:#4e3d56;border-radius:9px; }
+.dex-row-content { display:flex;flex:1;min-width:0;flex-direction:column;gap:4px; }
+.dex-row-title { display:flex;align-items:center;gap:7px; }.dex-row-title strong { font-size:14px; }
+.dex-row .english-name { margin-left:auto;max-width:38%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:10px; }
+.dex-row-tags { display:flex;gap:4px;align-items:center;flex-wrap:wrap; }
+.dex-row .type-tags>span,.dex-row .rarity-tag { font-size:9px;padding:1px 5px;line-height:1.5; }
+.dex-row .ownership { font-size:9px; }.dex-row-arrow { font-size:22px;color:#9d899e; }
+.dex-row[data-rarity=legendary] { border-color:#987544; }.dex-row[data-rarity=rare] { border-color:#76528c; }
+.dex-modal { width:calc(100vw - 28px);max-width:460px;max-height:calc(100dvh - 64px);margin:auto;padding:0;border:1px solid #a17b91;border-radius:16px;background:#211b2a;color:#eeeaf0;box-shadow:0 20px 80px #000b;overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch; }
+.dex-modal::backdrop { background:#080711b8;backdrop-filter:blur(4px); }
+.dex-modal-header { position:sticky;top:0;z-index:1;display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#211b2af5;border-bottom:1px solid #59435c; }
+.dex-modal-header button { width:40px;height:40px;padding:0; }.dex-modal-header .eyebrow { margin:0; }
+.dex-modal .dex-detail { margin:0;padding:16px 20px 20px; }.dex-modal .dex-hero { margin-bottom:12px; }
+.dex-modal .description { margin:16px 0; }.dex-modal .data-note { margin-bottom:0; }
+
+.region-tabs { display:grid;grid-template-columns:repeat(3,1fr);gap:8px; }
+.region-tabs button { min-height:42px!important;padding:8px;font-size:13px; }
+.region-tabs button[aria-pressed=true] { background:#843c54;border-color:#da8196;color:#fff0df; }
+.exploration-intro { font-size:13px;margin:12px 0 6px; }.exploration-cost { font-size:11px!important;color:#b7a7be; }
+.exploration-lock { font-size:12px;padding:10px;background:#6b4c293b;border-left:2px solid #d9b476; }
+.exploration-sites { display:grid;gap:10px;margin:14px 0; }
+.exploration-site,.special-investigation { padding:14px;background:#28202f;border:1px solid #57415d;border-radius:10px; }
+.exploration-site.is-selected { border-color:#b98297; }
+.exploration-site header,.special-investigation header { display:flex;align-items:center;justify-content:space-between;gap:8px; }
+.exploration-site h3,.special-investigation h3 { margin:0;font-size:15px; }.exploration-site header>span { font-size:10px;color:#c8b2ca; }
+.exploration-site p,.special-investigation p { font-size:11px;line-height:1.7;margin:8px 0; }
+.exploration-site .site-preview { color:#e3c89d; }.exploration-site details { margin-top:8px;font-size:11px; }
+.exploration-site button,.special-investigation button { display:block;width:100%;margin-top:10px;padding:9px;font-size:12px; }
+.special-investigation { border-color:#9b7848;background:linear-gradient(125deg,#392b2b,#27202e); }
+
+.activity-card { border:1px solid #69506f;background:#292131;border-radius:10px;padding:13px;margin:10px 0; }
+.activity-card h3 { margin:0 0 8px;font-size:14px!important;display:flex;justify-content:space-between;gap:8px; }.activity-card h3 small,.dispatch-panel h3 small { font-size:10px;font-weight:400;color:#dfbd88; }
+.activity-card p,.dispatch-panel>p { font-size:11px!important;line-height:1.7; }.activity-card button { display:block;width:100%;margin-top:8px;font-size:12px;min-height:44px; }
+.contract-catalog { margin:12px 0!important;border:1px solid #66505d;border-radius:8px;padding:10px; }.contract-catalog summary { font-size:12px; }.contract-catalog summary>span { font-size:10px;float:right; }
+.active-contract { border-color:#c2a36c;background:linear-gradient(120deg,#3a2c32,#282333); }.active-contract>.eyebrow { color:#e8c58b; }
+.exploration-event { border-color:#c19b56; }.exploration-event button { display:flex;flex-direction:column;align-items:flex-start;gap:5px;text-align:left; }.exploration-event button span { font-size:11px;line-height:1.6;color:#d1c3d4; }
+.dispatch-panel { margin-bottom:24px; }.dispatch-panel label { display:block;font-size:11px;margin:10px 0 6px; }.dispatch-panel select { font-size:14px; }.dispatch-panel progress { margin:4px 0; }
+
+.dispatch-fold { margin-top:0!important; }.dispatch-fold>summary { font-size:14px!important;padding:10px 0; }.dispatch-fold>summary>span { font-size:10px;margin-left:8px;color:#d9bd92; }.dispatch-fold>p { font-size:11px;line-height:1.7; }
