@@ -9,3 +9,11 @@ Vite 在发布时读取 GitHub Pages 提供的 base_path；本地默认继续使
 网站与本地/局域网地址的浏览器存档各自独立。迁移已有进度：在原游戏的“更多 → 存档与设置”导出 JSON，再到线上游戏导入。发布更新不会自动复制本地存档。
 
 来源：[GitHub Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
+
+## 当前发布目标
+
+仓库：https://github.com/bryansun0930/rocket-team-webgame
+
+游戏：https://bryansun0930.github.io/rocket-team-webgame/
+
+Pages 发布源已配置为 GitHub Actions。后续提交并推送 main 会自动执行测试和发布。

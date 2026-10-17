@@ -22,6 +22,6 @@ Vue3 + Phaser3 + TypeScript + Pinia + Vite + GitHub Pages
 - [试玩指南](PLAY_GUIDE.md)
 - [开发、测试与触屏说明](DEVELOPMENT.md)
 
-运行 `npm test` 需要 Node 22.12+；推荐 Node 24。生产构建使用 `npm run build`，输出到 `dist/`。当前尚未公开部署。
+运行 `npm test` 需要 Node 22.12+；推荐 Node 24。生产构建使用 `npm run build`，输出到 `dist/`。GitHub Pages 游戏地址：https://bryansun0930.github.io/rocket-team-webgame/。
 
 新增可玩内容：9 份地区捕获委托、3 类探索选择事件、侦察/运输/分析派遣及属性加成。入口为“行动”和“队伍”，规则见 PLAY_GUIDE.md。
