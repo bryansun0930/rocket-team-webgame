@@ -3,7 +3,7 @@
 最终版独立游戏开发包。
 
 目标：
-制作一款 GBA 宝可梦绿宝石风格的火箭队 Web RPG。
+制作一款火箭队 Web RPG。
 
 技术：
 Vue3 + Phaser3 + TypeScript + Pinia + Vite + GitHub Pages
